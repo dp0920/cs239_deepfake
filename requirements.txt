@@ -1,0 +1,13 @@
+diffusers
+huggingface_hub
+insightface
+ffmpeg-python
+onnx
+onnxruntime
+opencv-python
+pickle
+tensorflow
+torch
+torchvision
+torchaudio
+transformers

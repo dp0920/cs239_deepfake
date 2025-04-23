@@ -2,7 +2,6 @@ from huggingface_hub import hf_hub_download,snapshot_download
 from tensorflow.keras.models import load_model
 import numpy as np
 import torch
-import pickle
 import PIL.Image
 import sys
 
@@ -17,8 +16,16 @@ print(f"Model downloaded to: {model_path}")
 # Load generator
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_path = f"{model_path}/{STYLE_GAN_FILE}"
-ckpt = torch.load(model_path, map_location="cuda")
-print(ckpt.keys())
+
+sys.path.append(model_path)
+
+from generator import StyleGAN2Generator
+
+G = StyleGAN2Generator(size=1024, style_dim=512, n_mlp=8).to(device)
+
+ckpt = torch.load(model_path, map_location=device)
+G.load_state_dict(ckpt["g_ema"], strict=False)
+G.eval()
 """
 with open(f"{local_path}/{STYLE_GAN_FILE}", 'rb') as f:
     G = pickle.load(f)['G_ema'].cuda()

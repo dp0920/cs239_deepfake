@@ -1,6 +1,7 @@
 huggingface-hub
 ninja
 numpy
+tensorflow==2.14.0
 torch
 torchvision
 torchaudio

@@ -14,8 +14,10 @@ fi
 
 K=$1
 IMAGE_COUNT=200
-CODECARBON_SCRIPT="codecarbon/main.py"
-CSV_FILE_PATH="codecarbon/codecarbon_logs/emissions.csv"
+
+GIT_ROOT=$(git rev-parse --show-toplevel)
+CODECARBON_SCRIPT="$GIT_ROOT/codecarbon/main.py"
+CSV_FILE_PATH="$GIT_ROOT/codecarbon/codecarbon_logs/emissions.csv"
 
 
 for ((i=1; i<=K; i++))

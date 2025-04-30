@@ -2,13 +2,24 @@ import os, sys
 import subprocess
 from codecarbon import EmissionsTracker
 
+def get_git_root():
+    try:
+        root = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"],
+            stderr=subprocess.DEVNULL,
+        )
+        return root.decode().strip()
+    except subprocess.CalledProcessError:
+        return None
+
 def run_stylegan2_ada_pytorch_script(count: int):
     # Adjust this path and command to your StyleGAN2 setup
     print("Running StyleGAN2-ADA-PyTorch generation...")
+    git_root = get_git_root()
     subprocess.run([
         "python", "generate.py", "--outdir=out", "--trunc=1", "--count=" + str(count),
         "--network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl"
-    ], cwd="codecarbon/stylegan2-ada-pytorch")
+    ], cwd=git_root + "/codecarbon/stylegan2-ada-pytorch")
 
 def measure_emissions(task_function, task_name, *args):
     os.makedirs("./codecarbon_logs", exist_ok=True)

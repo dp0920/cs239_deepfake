@@ -7,24 +7,31 @@ usage() {
   echo "./experiment.sh ITERATION_COUNT"
 }
 
+green_echo() {
+    echo -e "\033[0;32m$1\033[0m"
+}
+
 if [ $# -ne 1 ]; then
     usage
     exit 1
 fi
 
 K=$1
-IMAGE_COUNT=200
+IMAGE_COUNT=10
 
 GIT_ROOT=$(git rev-parse --show-toplevel)
 CODECARBON_SCRIPT="$GIT_ROOT/codecarbon/main.py"
-CSV_FILE_PATH="$GIT_ROOT/codecarbon/codecarbon_logs/emissions.csv"
-
-
 for ((i=1; i<=K; i++))
-do
+do	
+    green_echo "Running experiment $i..."
     python "$CODECARBON_SCRIPT" "$IMAGE_COUNT"
 done
 
 # Copying the file over to avoid overwriting
 timestamp=$(date +"%m%d_%H%M%S")
-cp $CSV_FILE_PATH "$timestamp"_"$K"_"$IMAGE_COUNT".csv
+CODECARBON_CSV_OUTPUT_FILE_PATH="$GIT_ROOT/codecarbon/codecarbon_logs/emissions.csv"
+BATCH_SCRIPT_CSV_PATH="$GIT_ROOT/CSV/$timestamp"_"$K"_"$IMAGE_COUNT".csv
+mkdir -p "$BATCH_SCRIPT_CSV_PATH"
+cp "$CODECARBON_CSV_OUTPUT_FILE_PATH" "$BATCH_SCRIPT_CSV_PATH"
+
+echo "Outputs stored in $BATCH_SCRIPT_CSV_PATH"

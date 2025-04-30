@@ -21,7 +21,11 @@ green_echo() {
 #Always cleanup on exit
 trap cleanup EXIT
 
-VENV_PATH=../CS-239-Final-Project/env
+VENV_PATH=$1
+if [ -z "$VENV_PATH" ]; then
+  usage
+  exit 1
+fi
 
 #Activate the virtual environment
 source "$VENV_PATH/bin/activate"

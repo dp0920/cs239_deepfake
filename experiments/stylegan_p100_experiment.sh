@@ -18,3 +18,6 @@ cd cs239_deepfake/codecarbon
 
 # Run the Python script
 python stylegan_experiment.py 1-100
+
+# CLI command
+#sbatch --job-name=stylegan_p100_experiment --output=stylegan_p100_experiment_%j.log --error=stylegan_p100_experiment_%j.err --time=0-02:00 --mem=4G --partition=preempt --gres=gpu:p100:1

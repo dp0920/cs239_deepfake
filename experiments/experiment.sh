@@ -27,6 +27,7 @@ if [ -z "$VENV_PATH" ]; then
   exit 1
 fi
 
+
 #Activate the virtual environment
 source "$VENV_PATH/bin/activate"
 
@@ -45,19 +46,22 @@ green_echo "Starting $K iterations of generating $IMAGE_COUNT..."
 GIT_ROOT=$(git rev-parse --show-toplevel)
 TIMESTAMP=$(date +"%m%d_%H%M%S")
 CODECARBON_SCRIPT="$GIT_ROOT/codecarbon/main.py"
+timestamp=$(date +"%m%d_%H%M%S")
 CODECARBON_CSV_OUTPUT_FILE_PATH="$GIT_ROOT/CSV/$timestamp"
+mkdir -p "$CODECARBON_CSV_OUTPUT_FILE_PATH"
 
 echo "saving to $CODECARBON_CSV_OUTPUT_FILE_PATH"
 
 for ((i=1; i<=K; i++))
 do	
     green_echo "Running experiment $i..."
-    python3 "$CODECARBON_SCRIPT" "$IMAGE_COUNT" "$CODECARBON_CSV_OUTPUT_FILE_PATH" "$i"
+    python "$CODECARBON_SCRIPT" "$IMAGE_COUNT" $CODECARBON_CSV_OUTPUT_FILE_PATH
 done
 
-# Copying the file over to avoid overwriting ORIG_CSV="$CSV_DIR/emissions.csv"
-ORIG_CSV="$CSV_DIR/emissions.csv"
-FINAL_CSV="$CSV_DIR/${TIMESTAMP}_${K}_${IMAGE_COUNT}.csv"
+# Copying the file over to avoid overwriting
+BATCH_SCRIPT_CSV_PATH="$GIT_ROOT/CSV/$timestamp"_"$K"_"$IMAGE_COUNT".csv
+mkdir -p "$BATCH_SCRIPT_CSV_PATH"
+cp "$CODECARBON_CSV_OUTPUT_FILE_PATH" "$BATCH_SCRIPT_CSV_PATH"
 
 if [[ -f "$ORIG_CSV" ]]; then
   mv "$ORIG_CSV" "$FINAL_CSV"

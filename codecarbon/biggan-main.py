@@ -1,42 +1,73 @@
-from pathlib import Path
-import numpy as np
+import os
 import torch
+import argparse
+import numpy as np
+
+from pathlib import Path
+import torch.backends.cudnn as cudnn
 from torchvision.transforms import ToPILImage
+from torch.nn.utils import remove_spectral_norm
 from pytorch_pretrained_biggan import (
     BigGAN, truncated_noise_sample, one_hot_from_int
 )
 
-torch.set_grad_enabled(False)          # no autograd needed
+
+torch.set_grad_enabled(False)         
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 ''' Different kinds of classes directly comparable between ImageNET (BigGAN) and AFHQ (Animal faces)
 AFHQ has three classes: dogs, cats, and wildlife
 ImageNET has different kinds of dogs, cats, and foxes, cheetahs, wolves, leopard, tiger (which exist in AFHQ)'''
-class_indices = [248, 153, 200, 229, 230, 254, 283, 281, 284, 287, 277, 293, 270, 288, 292]
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 1.  Load generator (256-px, pre-trained on ImageNet)
 G = BigGAN.from_pretrained('biggan-deep-256').to(device).eval()
 
-# 2.  Helper: generate n unconditional images
-def biggan_random(n=8, trunc=0.4, outdir='biggan_samples', seed=None):
-    Path(outdir).mkdir(exist_ok=True)
+def generate_image(seed, trunc=0.4, outdir='biggan_samples'):
     rng = np.random.RandomState(seed)
-    for k in range(len(class_indices)):
-        # latent z  – sampled from N(0,1) then truncated
-        z = truncated_noise_sample(1, 128, truncation=trunc, seed=rng.randint(1e9))
-        z = torch.tensor(z, dtype=torch.float32, device=device)
-        # random ImageNet label (0–999) in one-hot
-        class_idx = class_indices[k]
-        y = torch.zeros((1, 1000), dtype=torch.float32, device=device)
-        y[0, class_idx] = 1.0
+    z = truncated_noise_sample(1, 128, truncation=trunc, seed=rng.randint(1e9))
+    z = torch.tensor(z, device=device, dtype=torch.float32)
+    
+    # pick a class (e.g. fixed or from a list)
+    y = torch.zeros((1,1000), device=device)
+    
+    # The second argument is where the class index for the image goes. 248 = Husky images in ImageNET
+    y[0, 248] = 1.0
+    with torch.no_grad():
+        img = G(z, y, truncation=trunc)[0]
+        
+    img = (img.clamp(-1,1) + 1)/2
+    Path(outdir).mkdir(exist_ok=True)
+    path = Path(outdir) / f"sample_{seed:05d}.png"
+    
+    ToPILImage()(img.cpu()).save(str(path))
+    print(f"New image saved to {path}!")
 
-        # 3.  Forward pass
-        with torch.no_grad():
-            img = G(z, y, truncation=trunc)[0]     # shape (3,256,256), range [-1,1]
-        img = (img.clamp(-1, 1) + 1) / 2           # → [0,1]
-
-        ToPILImage()(img.cpu()).save(f'{outdir}/sample_{k:02d}.png')
-        print(f'saved {outdir}/sample_{k:02d}.png  (class {class_idx})')
-
-biggan_random(n=8, trunc=0.4, seed=123)
+def run_biggan(n=8, seed_base=1, outdir="biggan_samples"):
+    """
+    Generates `n` images with seeds:
+       seed = (seed_base-1)*n + j
+    so across runs you get unique seeds 0 … K*n-1.
+    """
+    for j in range(n):
+        seed = (seed_base - 1)*n + j
+        generate_image(seed=seed, outdir=outdir)
+        
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--images",    type=int, default=8,
+                        help="How many images this run")
+    parser.add_argument("--seed-base", type=int, default=1,
+                        help="Batch index to offset seeds")
+    parser.add_argument("--outdir",    type=str, default="biggan_samples",
+                        help="Where to save PNGs")
+                        
+    args = parser.parse_args()
+    
+    run_biggan(n=args.images,
+                   seed_base=args.seed_base,
+                   outdir=args.outdir)
+                   
+if __name__ == "__main__":
+    main()

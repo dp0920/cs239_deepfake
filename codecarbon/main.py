@@ -9,6 +9,12 @@ def run_stylegan2_ada_pytorch_script():
         "python", "generate.py", "--outdir=out", "--trunc=1", "--seeds=1-100",
         "--network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl"
     ], cwd="stylegan2-ada-pytorch")
+    
+def run_biggan():
+    print("Running Biggan generation...")
+    subprocess.run([
+        "python", "biggan-main.py"
+    ], cwd=".")
 
 def measure_emissions(task_function, task_name):
     os.makedirs("./codecarbon_logs", exist_ok=True)
@@ -19,11 +25,12 @@ def measure_emissions(task_function, task_name):
     finally:
         emissions = tracker.stop()
         print(f"{task_name} emissions: {emissions:.6f} kg CO₂")
+        
 
 if __name__ == "__main__":
     print("Starting Deepfake Energy Measurement...")
 
     # Measure StyleGAN2
-    measure_emissions(run_stylegan2_ada_pytorch_script, "StyleGAN2-ADA-PyTorch-Generation")
+    measure_emissions(run_biggan, "biggan")
 
     print("Measurement Complete.")

@@ -1,0 +1,2119 @@
+/var/spool/slurm/job13456911/slurm_script: line 36: c: command not found
+[codecarbon INFO @ 15:23:50] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:23:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:23:50] [setup] GPU Tracking...
+[codecarbon INFO @ 15:23:50] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:23:50] [setup] CPU Tracking...
+[codecarbon INFO @ 15:23:50] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:23:50] >>> Tracker's metadata:
+[codecarbon INFO @ 15:23:50]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:23:50]   Python version: 3.6.8
+[codecarbon INFO @ 15:23:50]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:23:50]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:23:50]   CPU count: 1
+[codecarbon INFO @ 15:23:50]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:23:50]   GPU count: 1
+[codecarbon INFO @ 15:23:50]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:24:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:04] Energy consumed for RAM : 0.000269 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:24:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:04] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 37.014 W
+[codecarbon INFO @ 15:24:04] Energy consumed for all CPUs : 0.000277 kWh. Total CPU Power : 95.88620213511943 W
+[codecarbon INFO @ 15:24:04] 0.000653 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:24:05] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:24:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:05] [setup] GPU Tracking...
+[codecarbon INFO @ 15:24:05] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:24:05] [setup] CPU Tracking...
+[codecarbon INFO @ 15:24:05] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:24:05] >>> Tracker's metadata:
+[codecarbon INFO @ 15:24:05]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:24:05]   Python version: 3.6.8
+[codecarbon INFO @ 15:24:05]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:24:05]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:24:05]   CPU count: 1
+[codecarbon INFO @ 15:24:05]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:24:05]   GPU count: 1
+[codecarbon INFO @ 15:24:05]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:24:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:18] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:24:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:18] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.259 W
+[codecarbon INFO @ 15:24:18] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.78349972842129 W
+[codecarbon INFO @ 15:24:18] 0.000629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:24:19] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:24:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:19] [setup] GPU Tracking...
+[codecarbon INFO @ 15:24:19] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:24:19] [setup] CPU Tracking...
+[codecarbon INFO @ 15:24:19] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:24:19] >>> Tracker's metadata:
+[codecarbon INFO @ 15:24:19]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:24:19]   Python version: 3.6.8
+[codecarbon INFO @ 15:24:19]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:24:19]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:24:19]   CPU count: 1
+[codecarbon INFO @ 15:24:19]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:24:19]   GPU count: 1
+[codecarbon INFO @ 15:24:19]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:24:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:33] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:24:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:33] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:24:33] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.49823405611521 W
+[codecarbon INFO @ 15:24:33] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:24:34] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:24:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:34] [setup] GPU Tracking...
+[codecarbon INFO @ 15:24:34] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:24:34] [setup] CPU Tracking...
+[codecarbon INFO @ 15:24:34] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:24:34] >>> Tracker's metadata:
+[codecarbon INFO @ 15:24:34]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:24:34]   Python version: 3.6.8
+[codecarbon INFO @ 15:24:34]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:24:34]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:24:34]   CPU count: 1
+[codecarbon INFO @ 15:24:34]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:24:34]   GPU count: 1
+[codecarbon INFO @ 15:24:34]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:24:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:47] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:24:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:47] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:24:47] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 96.19174988562762 W
+[codecarbon INFO @ 15:24:47] 0.000637 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:24:48] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:24:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:24:48] [setup] GPU Tracking...
+[codecarbon INFO @ 15:24:48] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:24:48] [setup] CPU Tracking...
+[codecarbon INFO @ 15:24:48] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:24:48] >>> Tracker's metadata:
+[codecarbon INFO @ 15:24:48]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:24:48]   Python version: 3.6.8
+[codecarbon INFO @ 15:24:48]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:24:48]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:24:48]   CPU count: 1
+[codecarbon INFO @ 15:24:48]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:24:48]   GPU count: 1
+[codecarbon INFO @ 15:24:48]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:25:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:02] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:25:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:02] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:25:02] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 95.19913509696204 W
+[codecarbon INFO @ 15:25:02] 0.000644 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:25:03] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:25:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:03] [setup] GPU Tracking...
+[codecarbon INFO @ 15:25:03] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:25:03] [setup] CPU Tracking...
+[codecarbon INFO @ 15:25:03] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:25:03] >>> Tracker's metadata:
+[codecarbon INFO @ 15:25:03]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:25:03]   Python version: 3.6.8
+[codecarbon INFO @ 15:25:03]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:25:03]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:25:03]   CPU count: 1
+[codecarbon INFO @ 15:25:03]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:25:03]   GPU count: 1
+[codecarbon INFO @ 15:25:03]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:25:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:17] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:25:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:17] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.366 W
+[codecarbon INFO @ 15:25:17] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 94.65499856871921 W
+[codecarbon INFO @ 15:25:17] 0.000641 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:25:18] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:25:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:18] [setup] GPU Tracking...
+[codecarbon INFO @ 15:25:18] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:25:18] [setup] CPU Tracking...
+[codecarbon INFO @ 15:25:18] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:25:18] >>> Tracker's metadata:
+[codecarbon INFO @ 15:25:18]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:25:18]   Python version: 3.6.8
+[codecarbon INFO @ 15:25:18]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:25:18]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:25:18]   CPU count: 1
+[codecarbon INFO @ 15:25:18]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:25:18]   GPU count: 1
+[codecarbon INFO @ 15:25:18]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:25:31] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:31] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:25:31] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:31] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:25:31] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 94.69635144288512 W
+[codecarbon INFO @ 15:25:31] 0.000627 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:25:32] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:25:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:32] [setup] GPU Tracking...
+[codecarbon INFO @ 15:25:32] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:25:32] [setup] CPU Tracking...
+[codecarbon INFO @ 15:25:32] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:25:32] >>> Tracker's metadata:
+[codecarbon INFO @ 15:25:32]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:25:32]   Python version: 3.6.8
+[codecarbon INFO @ 15:25:32]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:25:32]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:25:32]   CPU count: 1
+[codecarbon INFO @ 15:25:32]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:25:32]   GPU count: 1
+[codecarbon INFO @ 15:25:32]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:25:45] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:45] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:25:45] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:45] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:25:45] Energy consumed for all CPUs : 0.000263 kWh. Total CPU Power : 95.00660084602528 W
+[codecarbon INFO @ 15:25:45] 0.000627 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:25:46] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:25:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:25:47] [setup] GPU Tracking...
+[codecarbon INFO @ 15:25:47] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:25:47] [setup] CPU Tracking...
+[codecarbon INFO @ 15:25:47] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:25:47] >>> Tracker's metadata:
+[codecarbon INFO @ 15:25:47]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:25:47]   Python version: 3.6.8
+[codecarbon INFO @ 15:25:47]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:25:47]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:25:47]   CPU count: 1
+[codecarbon INFO @ 15:25:47]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:25:47]   GPU count: 1
+[codecarbon INFO @ 15:25:47]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:26:00] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:00] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:26:00] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:00] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:26:00] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 95.0779246960534 W
+[codecarbon INFO @ 15:26:00] 0.000642 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:26:01] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:26:01] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:01] [setup] GPU Tracking...
+[codecarbon INFO @ 15:26:01] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:26:01] [setup] CPU Tracking...
+[codecarbon INFO @ 15:26:01] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:26:01] >>> Tracker's metadata:
+[codecarbon INFO @ 15:26:01]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:26:01]   Python version: 3.6.8
+[codecarbon INFO @ 15:26:01]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:26:01]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:26:01]   CPU count: 1
+[codecarbon INFO @ 15:26:01]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:26:01]   GPU count: 1
+[codecarbon INFO @ 15:26:01]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:26:14] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:14] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:26:15] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:15] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:26:15] Energy consumed for all CPUs : 0.000263 kWh. Total CPU Power : 94.84189987881743 W
+[codecarbon INFO @ 15:26:15] 0.000626 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:26:16] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:26:16] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:16] [setup] GPU Tracking...
+[codecarbon INFO @ 15:26:16] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:26:16] [setup] CPU Tracking...
+[codecarbon INFO @ 15:26:16] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:26:16] >>> Tracker's metadata:
+[codecarbon INFO @ 15:26:16]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:26:16]   Python version: 3.6.8
+[codecarbon INFO @ 15:26:16]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:26:16]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:26:16]   CPU count: 1
+[codecarbon INFO @ 15:26:16]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:26:16]   GPU count: 1
+[codecarbon INFO @ 15:26:16]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:26:29] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:29] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:26:29] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:29] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.302 W
+[codecarbon INFO @ 15:26:29] Energy consumed for all CPUs : 0.000268 kWh. Total CPU Power : 94.91586154951105 W
+[codecarbon INFO @ 15:26:29] 0.000636 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:26:30] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:26:30] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:30] [setup] GPU Tracking...
+[codecarbon INFO @ 15:26:30] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:26:31] [setup] CPU Tracking...
+[codecarbon INFO @ 15:26:31] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:26:31] >>> Tracker's metadata:
+[codecarbon INFO @ 15:26:31]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:26:31]   Python version: 3.6.8
+[codecarbon INFO @ 15:26:31]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:26:31]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:26:31]   CPU count: 1
+[codecarbon INFO @ 15:26:31]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:26:31]   GPU count: 1
+[codecarbon INFO @ 15:26:31]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:26:44] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:44] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:26:44] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:44] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:26:44] Energy consumed for all CPUs : 0.000264 kWh. Total CPU Power : 94.8131734300816 W
+[codecarbon INFO @ 15:26:44] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:26:45] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:26:45] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:45] [setup] GPU Tracking...
+[codecarbon INFO @ 15:26:45] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:26:45] [setup] CPU Tracking...
+[codecarbon INFO @ 15:26:45] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:26:45] >>> Tracker's metadata:
+[codecarbon INFO @ 15:26:45]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:26:45]   Python version: 3.6.8
+[codecarbon INFO @ 15:26:45]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:26:45]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:26:45]   CPU count: 1
+[codecarbon INFO @ 15:26:45]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:26:45]   GPU count: 1
+[codecarbon INFO @ 15:26:45]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:26:58] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:58] Energy consumed for RAM : 0.000261 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:26:58] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:26:58] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:26:58] Energy consumed for all CPUs : 0.000266 kWh. Total CPU Power : 94.86028905910473 W
+[codecarbon INFO @ 15:26:58] 0.000635 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:26:59] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:27:00] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:00] [setup] GPU Tracking...
+[codecarbon INFO @ 15:27:00] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:27:00] [setup] CPU Tracking...
+[codecarbon INFO @ 15:27:00] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:27:00] >>> Tracker's metadata:
+[codecarbon INFO @ 15:27:00]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:27:00]   Python version: 3.6.8
+[codecarbon INFO @ 15:27:00]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:27:00]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:27:00]   CPU count: 1
+[codecarbon INFO @ 15:27:00]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:27:00]   GPU count: 1
+[codecarbon INFO @ 15:27:00]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:27:13] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:13] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:27:13] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:13] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:27:13] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.0208245559075 W
+[codecarbon INFO @ 15:27:13] 0.000632 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:27:14] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:27:14] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:14] [setup] GPU Tracking...
+[codecarbon INFO @ 15:27:14] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:27:14] [setup] CPU Tracking...
+[codecarbon INFO @ 15:27:14] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:27:14] >>> Tracker's metadata:
+[codecarbon INFO @ 15:27:14]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:27:14]   Python version: 3.6.8
+[codecarbon INFO @ 15:27:14]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:27:14]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:27:14]   CPU count: 1
+[codecarbon INFO @ 15:27:14]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:27:14]   GPU count: 1
+[codecarbon INFO @ 15:27:14]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:27:27] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:27] Energy consumed for RAM : 0.000255 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:27:27] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:27] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:27:27] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 95.30578414239962 W
+[codecarbon INFO @ 15:27:27] 0.000623 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:27:28] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:27:29] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:29] [setup] GPU Tracking...
+[codecarbon INFO @ 15:27:29] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:27:29] [setup] CPU Tracking...
+[codecarbon INFO @ 15:27:29] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:27:29] >>> Tracker's metadata:
+[codecarbon INFO @ 15:27:29]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:27:29]   Python version: 3.6.8
+[codecarbon INFO @ 15:27:29]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:27:29]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:27:29]   CPU count: 1
+[codecarbon INFO @ 15:27:29]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:27:29]   GPU count: 1
+[codecarbon INFO @ 15:27:29]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:27:42] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:42] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:27:42] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:42] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:27:42] Energy consumed for all CPUs : 0.000266 kWh. Total CPU Power : 95.59189405844705 W
+[codecarbon INFO @ 15:27:42] 0.000632 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:27:43] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:27:43] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:43] [setup] GPU Tracking...
+[codecarbon INFO @ 15:27:43] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:27:43] [setup] CPU Tracking...
+[codecarbon INFO @ 15:27:43] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:27:43] >>> Tracker's metadata:
+[codecarbon INFO @ 15:27:43]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:27:43]   Python version: 3.6.8
+[codecarbon INFO @ 15:27:43]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:27:43]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:27:43]   CPU count: 1
+[codecarbon INFO @ 15:27:43]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:27:43]   GPU count: 1
+[codecarbon INFO @ 15:27:43]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:27:56] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:56] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:27:56] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:56] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.738 W
+[codecarbon INFO @ 15:27:56] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.41936825622179 W
+[codecarbon INFO @ 15:27:56] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:27:57] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:27:57] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:27:57] [setup] GPU Tracking...
+[codecarbon INFO @ 15:27:57] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:27:57] [setup] CPU Tracking...
+[codecarbon INFO @ 15:27:57] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:27:58] >>> Tracker's metadata:
+[codecarbon INFO @ 15:27:58]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:27:58]   Python version: 3.6.8
+[codecarbon INFO @ 15:27:58]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:27:58]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:27:58]   CPU count: 1
+[codecarbon INFO @ 15:27:58]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:27:58]   GPU count: 1
+[codecarbon INFO @ 15:27:58]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:28:11] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:11] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:28:11] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:11] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.738 W
+[codecarbon INFO @ 15:28:11] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.33460228453103 W
+[codecarbon INFO @ 15:28:11] 0.000636 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:28:12] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:28:12] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:12] [setup] GPU Tracking...
+[codecarbon INFO @ 15:28:12] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:28:12] [setup] CPU Tracking...
+[codecarbon INFO @ 15:28:12] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:28:12] >>> Tracker's metadata:
+[codecarbon INFO @ 15:28:12]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:28:12]   Python version: 3.6.8
+[codecarbon INFO @ 15:28:12]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:28:12]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:28:12]   CPU count: 1
+[codecarbon INFO @ 15:28:12]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:28:12]   GPU count: 1
+[codecarbon INFO @ 15:28:12]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:28:25] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:25] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:28:25] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:25] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:28:25] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.49686070995277 W
+[codecarbon INFO @ 15:28:25] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:28:27] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:28:27] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:27] [setup] GPU Tracking...
+[codecarbon INFO @ 15:28:27] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:28:27] [setup] CPU Tracking...
+[codecarbon INFO @ 15:28:27] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:28:27] >>> Tracker's metadata:
+[codecarbon INFO @ 15:28:27]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:28:27]   Python version: 3.6.8
+[codecarbon INFO @ 15:28:27]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:28:27]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:28:27]   CPU count: 1
+[codecarbon INFO @ 15:28:27]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:28:27]   GPU count: 1
+[codecarbon INFO @ 15:28:27]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:28:40] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:40] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:28:40] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:40] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:28:40] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.66312638760533 W
+[codecarbon INFO @ 15:28:40] 0.000630 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:28:41] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:28:41] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:41] [setup] GPU Tracking...
+[codecarbon INFO @ 15:28:41] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:28:41] [setup] CPU Tracking...
+[codecarbon INFO @ 15:28:41] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:28:41] >>> Tracker's metadata:
+[codecarbon INFO @ 15:28:41]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:28:41]   Python version: 3.6.8
+[codecarbon INFO @ 15:28:41]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:28:41]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:28:41]   CPU count: 1
+[codecarbon INFO @ 15:28:41]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:28:41]   GPU count: 1
+[codecarbon INFO @ 15:28:41]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:28:55] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:55] Energy consumed for RAM : 0.000268 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:28:55] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:55] Energy consumed for all GPUs : 0.000112 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:28:55] Energy consumed for all CPUs : 0.000275 kWh. Total CPU Power : 95.41252393514193 W
+[codecarbon INFO @ 15:28:55] 0.000655 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:28:56] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:28:56] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:28:56] [setup] GPU Tracking...
+[codecarbon INFO @ 15:28:56] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:28:56] [setup] CPU Tracking...
+[codecarbon INFO @ 15:28:56] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:28:56] >>> Tracker's metadata:
+[codecarbon INFO @ 15:28:56]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:28:56]   Python version: 3.6.8
+[codecarbon INFO @ 15:28:56]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:28:56]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:28:56]   CPU count: 1
+[codecarbon INFO @ 15:28:56]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:28:56]   GPU count: 1
+[codecarbon INFO @ 15:28:56]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:29:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:09] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:29:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:09] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:29:09] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.26359389806429 W
+[codecarbon INFO @ 15:29:09] 0.000636 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:29:11] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:29:11] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:11] [setup] GPU Tracking...
+[codecarbon INFO @ 15:29:11] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:29:11] [setup] CPU Tracking...
+[codecarbon INFO @ 15:29:11] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:29:11] >>> Tracker's metadata:
+[codecarbon INFO @ 15:29:11]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:29:11]   Python version: 3.6.8
+[codecarbon INFO @ 15:29:11]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:29:11]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:29:11]   CPU count: 1
+[codecarbon INFO @ 15:29:11]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:29:11]   GPU count: 1
+[codecarbon INFO @ 15:29:11]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:29:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:24] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:29:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:24] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:29:24] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.4900732737766 W
+[codecarbon INFO @ 15:29:24] 0.000635 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:29:25] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:29:25] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:25] [setup] GPU Tracking...
+[codecarbon INFO @ 15:29:25] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:29:25] [setup] CPU Tracking...
+[codecarbon INFO @ 15:29:25] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:29:25] >>> Tracker's metadata:
+[codecarbon INFO @ 15:29:25]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:29:25]   Python version: 3.6.8
+[codecarbon INFO @ 15:29:25]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:29:25]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:29:25]   CPU count: 1
+[codecarbon INFO @ 15:29:25]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:29:25]   GPU count: 1
+[codecarbon INFO @ 15:29:25]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:29:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:38] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:29:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:38] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:29:38] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 95.30905527105179 W
+[codecarbon INFO @ 15:29:38] 0.000624 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:29:39] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:29:39] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:39] [setup] GPU Tracking...
+[codecarbon INFO @ 15:29:39] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:29:39] [setup] CPU Tracking...
+[codecarbon INFO @ 15:29:39] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:29:40] >>> Tracker's metadata:
+[codecarbon INFO @ 15:29:40]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:29:40]   Python version: 3.6.8
+[codecarbon INFO @ 15:29:40]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:29:40]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:29:40]   CPU count: 1
+[codecarbon INFO @ 15:29:40]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:29:40]   GPU count: 1
+[codecarbon INFO @ 15:29:40]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:29:53] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:53] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:29:53] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:53] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:29:53] Energy consumed for all CPUs : 0.000275 kWh. Total CPU Power : 96.91519668586866 W
+[codecarbon INFO @ 15:29:53] 0.000648 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:29:54] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:29:54] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:29:54] [setup] GPU Tracking...
+[codecarbon INFO @ 15:29:54] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:29:54] [setup] CPU Tracking...
+[codecarbon INFO @ 15:29:54] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:29:55] >>> Tracker's metadata:
+[codecarbon INFO @ 15:29:55]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:29:55]   Python version: 3.6.8
+[codecarbon INFO @ 15:29:55]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:29:55]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:29:55]   CPU count: 1
+[codecarbon INFO @ 15:29:55]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:29:55]   GPU count: 1
+[codecarbon INFO @ 15:29:55]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:30:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:08] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:30:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:08] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:30:08] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 95.4390843983125 W
+[codecarbon INFO @ 15:30:08] 0.000646 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:30:09] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:30:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:09] [setup] GPU Tracking...
+[codecarbon INFO @ 15:30:09] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:30:09] [setup] CPU Tracking...
+[codecarbon INFO @ 15:30:09] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:30:09] >>> Tracker's metadata:
+[codecarbon INFO @ 15:30:09]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:30:09]   Python version: 3.6.8
+[codecarbon INFO @ 15:30:09]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:30:09]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:30:09]   CPU count: 1
+[codecarbon INFO @ 15:30:09]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:30:09]   GPU count: 1
+[codecarbon INFO @ 15:30:09]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:30:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:22] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:30:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:22] Energy consumed for all GPUs : 0.000104 kWh. Total GPU Power : 37.302 W
+[codecarbon INFO @ 15:30:22] Energy consumed for all CPUs : 0.000266 kWh. Total CPU Power : 95.25054057255205 W
+[codecarbon INFO @ 15:30:22] 0.000630 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:30:24] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:30:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:24] [setup] GPU Tracking...
+[codecarbon INFO @ 15:30:24] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:30:24] [setup] CPU Tracking...
+[codecarbon INFO @ 15:30:24] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:30:24] >>> Tracker's metadata:
+[codecarbon INFO @ 15:30:24]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:30:24]   Python version: 3.6.8
+[codecarbon INFO @ 15:30:24]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:30:24]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:30:24]   CPU count: 1
+[codecarbon INFO @ 15:30:24]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:30:24]   GPU count: 1
+[codecarbon INFO @ 15:30:24]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:30:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:37] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:30:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:37] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:30:37] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.37559129950144 W
+[codecarbon INFO @ 15:30:37] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:30:38] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:30:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:38] [setup] GPU Tracking...
+[codecarbon INFO @ 15:30:38] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:30:38] [setup] CPU Tracking...
+[codecarbon INFO @ 15:30:38] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:30:38] >>> Tracker's metadata:
+[codecarbon INFO @ 15:30:38]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:30:38]   Python version: 3.6.8
+[codecarbon INFO @ 15:30:38]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:30:38]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:30:38]   CPU count: 1
+[codecarbon INFO @ 15:30:38]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:30:38]   GPU count: 1
+[codecarbon INFO @ 15:30:38]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:30:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:52] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:30:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:52] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:30:52] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 95.25101866117838 W
+[codecarbon INFO @ 15:30:52] 0.000646 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:30:53] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:30:53] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:30:53] [setup] GPU Tracking...
+[codecarbon INFO @ 15:30:53] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:30:53] [setup] CPU Tracking...
+[codecarbon INFO @ 15:30:53] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:30:53] >>> Tracker's metadata:
+[codecarbon INFO @ 15:30:53]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:30:53]   Python version: 3.6.8
+[codecarbon INFO @ 15:30:53]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:30:53]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:30:53]   CPU count: 1
+[codecarbon INFO @ 15:30:53]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:30:53]   GPU count: 1
+[codecarbon INFO @ 15:30:53]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:31:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:06] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:31:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:06] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:31:06] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 95.20373338491942 W
+[codecarbon INFO @ 15:31:06] 0.000624 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:31:07] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:31:07] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:07] [setup] GPU Tracking...
+[codecarbon INFO @ 15:31:07] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:31:07] [setup] CPU Tracking...
+[codecarbon INFO @ 15:31:07] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:31:08] >>> Tracker's metadata:
+[codecarbon INFO @ 15:31:08]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:31:08]   Python version: 3.6.8
+[codecarbon INFO @ 15:31:08]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:31:08]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:31:08]   CPU count: 1
+[codecarbon INFO @ 15:31:08]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:31:08]   GPU count: 1
+[codecarbon INFO @ 15:31:08]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:31:26] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:26] Energy consumed for RAM : 0.000393 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:31:26] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:26] Energy consumed for RAM : 0.000789 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:31:26] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:26] Energy consumed for all GPUs : 0.000159 kWh. Total GPU Power : 37.78 W
+[codecarbon INFO @ 15:31:26] Energy consumed for all CPUs : 0.000399 kWh. Total CPU Power : 94.6725992983715 W
+[codecarbon INFO @ 15:31:26] 0.001347 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 15:31:26] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:26] Energy consumed for all GPUs : 0.000160 kWh. Total GPU Power : 37.684 W
+[codecarbon INFO @ 15:31:26] Energy consumed for all CPUs : 0.000401 kWh. Total CPU Power : 95.81498745879755 W
+[codecarbon INFO @ 15:31:26] 0.001350 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:31:27] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:31:27] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:27] [setup] GPU Tracking...
+[codecarbon INFO @ 15:31:27] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:31:27] [setup] CPU Tracking...
+[codecarbon INFO @ 15:31:27] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:31:27] >>> Tracker's metadata:
+[codecarbon INFO @ 15:31:27]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:31:27]   Python version: 3.6.8
+[codecarbon INFO @ 15:31:27]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:31:27]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:31:27]   CPU count: 1
+[codecarbon INFO @ 15:31:27]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:31:27]   GPU count: 1
+[codecarbon INFO @ 15:31:27]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:31:41] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:41] Energy consumed for RAM : 0.000262 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:31:41] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:41] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:31:41] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 96.15115191896942 W
+[codecarbon INFO @ 15:31:41] 0.000642 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:31:42] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:31:42] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:42] [setup] GPU Tracking...
+[codecarbon INFO @ 15:31:42] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:31:42] [setup] CPU Tracking...
+[codecarbon INFO @ 15:31:42] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:31:42] >>> Tracker's metadata:
+[codecarbon INFO @ 15:31:42]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:31:42]   Python version: 3.6.8
+[codecarbon INFO @ 15:31:42]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:31:42]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:31:42]   CPU count: 1
+[codecarbon INFO @ 15:31:42]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:31:42]   GPU count: 1
+[codecarbon INFO @ 15:31:42]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:31:55] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:55] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:31:55] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:55] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.546 W
+[codecarbon INFO @ 15:31:55] Energy consumed for all CPUs : 0.000266 kWh. Total CPU Power : 95.90363298442045 W
+[codecarbon INFO @ 15:31:55] 0.000630 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:31:56] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:31:56] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:31:56] [setup] GPU Tracking...
+[codecarbon INFO @ 15:31:56] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:31:56] [setup] CPU Tracking...
+[codecarbon INFO @ 15:31:56] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:31:56] >>> Tracker's metadata:
+[codecarbon INFO @ 15:31:56]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:31:56]   Python version: 3.6.8
+[codecarbon INFO @ 15:31:56]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:31:56]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:31:56]   CPU count: 1
+[codecarbon INFO @ 15:31:56]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:31:56]   GPU count: 1
+[codecarbon INFO @ 15:31:56]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:32:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:09] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:32:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:09] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.832 W
+[codecarbon INFO @ 15:32:09] Energy consumed for all CPUs : 0.000263 kWh. Total CPU Power : 95.59048451736233 W
+[codecarbon INFO @ 15:32:09] 0.000626 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:32:11] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:32:11] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:11] [setup] GPU Tracking...
+[codecarbon INFO @ 15:32:11] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:32:11] [setup] CPU Tracking...
+[codecarbon INFO @ 15:32:11] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:32:11] >>> Tracker's metadata:
+[codecarbon INFO @ 15:32:11]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:32:11]   Python version: 3.6.8
+[codecarbon INFO @ 15:32:11]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:32:11]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:32:11]   CPU count: 1
+[codecarbon INFO @ 15:32:11]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:32:11]   GPU count: 1
+[codecarbon INFO @ 15:32:11]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:32:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:24] Energy consumed for RAM : 0.000265 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:32:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:24] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 37.313 W
+[codecarbon INFO @ 15:32:24] Energy consumed for all CPUs : 0.000273 kWh. Total CPU Power : 95.89787247480652 W
+[codecarbon INFO @ 15:32:24] 0.000644 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:32:25] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:32:26] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:26] [setup] GPU Tracking...
+[codecarbon INFO @ 15:32:26] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:32:26] [setup] CPU Tracking...
+[codecarbon INFO @ 15:32:26] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:32:26] >>> Tracker's metadata:
+[codecarbon INFO @ 15:32:26]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:32:26]   Python version: 3.6.8
+[codecarbon INFO @ 15:32:26]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:32:26]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:32:26]   CPU count: 1
+[codecarbon INFO @ 15:32:26]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:32:26]   GPU count: 1
+[codecarbon INFO @ 15:32:26]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:32:39] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:39] Energy consumed for RAM : 0.000265 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:32:39] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:39] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 37.408 W
+[codecarbon INFO @ 15:32:39] Energy consumed for all CPUs : 0.000273 kWh. Total CPU Power : 95.72498670822071 W
+[codecarbon INFO @ 15:32:39] 0.000644 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:32:40] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:32:40] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:40] [setup] GPU Tracking...
+[codecarbon INFO @ 15:32:40] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:32:40] [setup] CPU Tracking...
+[codecarbon INFO @ 15:32:40] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:32:40] >>> Tracker's metadata:
+[codecarbon INFO @ 15:32:40]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:32:40]   Python version: 3.6.8
+[codecarbon INFO @ 15:32:40]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:32:40]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:32:40]   CPU count: 1
+[codecarbon INFO @ 15:32:40]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:32:40]   GPU count: 1
+[codecarbon INFO @ 15:32:40]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:32:54] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:54] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:32:54] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:54] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:32:54] Energy consumed for all CPUs : 0.000268 kWh. Total CPU Power : 95.76267372147652 W
+[codecarbon INFO @ 15:32:54] 0.000636 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:32:55] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:32:55] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:32:55] [setup] GPU Tracking...
+[codecarbon INFO @ 15:32:55] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:32:55] [setup] CPU Tracking...
+[codecarbon INFO @ 15:32:55] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:32:55] >>> Tracker's metadata:
+[codecarbon INFO @ 15:32:55]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:32:55]   Python version: 3.6.8
+[codecarbon INFO @ 15:32:55]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:32:55]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:32:55]   CPU count: 1
+[codecarbon INFO @ 15:32:55]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:32:55]   GPU count: 1
+[codecarbon INFO @ 15:32:55]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:33:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:08] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:33:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:08] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.832 W
+[codecarbon INFO @ 15:33:08] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.77163463474973 W
+[codecarbon INFO @ 15:33:08] 0.000629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:33:09] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:33:09] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:09] [setup] GPU Tracking...
+[codecarbon INFO @ 15:33:09] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:33:09] [setup] CPU Tracking...
+[codecarbon INFO @ 15:33:09] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:33:09] >>> Tracker's metadata:
+[codecarbon INFO @ 15:33:09]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:33:09]   Python version: 3.6.8
+[codecarbon INFO @ 15:33:09]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:33:09]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:33:09]   CPU count: 1
+[codecarbon INFO @ 15:33:09]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:33:09]   GPU count: 1
+[codecarbon INFO @ 15:33:09]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:33:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:22] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:33:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:22] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:33:22] Energy consumed for all CPUs : 0.000264 kWh. Total CPU Power : 95.1835854333834 W
+[codecarbon INFO @ 15:33:22] 0.000630 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:33:24] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:33:24] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:24] [setup] GPU Tracking...
+[codecarbon INFO @ 15:33:24] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:33:24] [setup] CPU Tracking...
+[codecarbon INFO @ 15:33:24] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:33:24] >>> Tracker's metadata:
+[codecarbon INFO @ 15:33:24]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:33:24]   Python version: 3.6.8
+[codecarbon INFO @ 15:33:24]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:33:24]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:33:24]   CPU count: 1
+[codecarbon INFO @ 15:33:24]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:33:24]   GPU count: 1
+[codecarbon INFO @ 15:33:24]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:33:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:37] Energy consumed for RAM : 0.000266 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:33:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:37] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.451 W
+[codecarbon INFO @ 15:33:37] Energy consumed for all CPUs : 0.000274 kWh. Total CPU Power : 95.4691151589089 W
+[codecarbon INFO @ 15:33:37] 0.000650 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:33:39] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:33:39] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:39] [setup] GPU Tracking...
+[codecarbon INFO @ 15:33:39] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:33:39] [setup] CPU Tracking...
+[codecarbon INFO @ 15:33:39] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:33:39] >>> Tracker's metadata:
+[codecarbon INFO @ 15:33:39]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:33:39]   Python version: 3.6.8
+[codecarbon INFO @ 15:33:39]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:33:39]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:33:39]   CPU count: 1
+[codecarbon INFO @ 15:33:39]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:33:39]   GPU count: 1
+[codecarbon INFO @ 15:33:39]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:33:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:52] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:33:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:52] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:33:52] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.21506744745778 W
+[codecarbon INFO @ 15:33:52] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:33:53] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:33:53] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:33:53] [setup] GPU Tracking...
+[codecarbon INFO @ 15:33:53] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:33:53] [setup] CPU Tracking...
+[codecarbon INFO @ 15:33:53] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:33:53] >>> Tracker's metadata:
+[codecarbon INFO @ 15:33:53]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:33:53]   Python version: 3.6.8
+[codecarbon INFO @ 15:33:53]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:33:53]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:33:53]   CPU count: 1
+[codecarbon INFO @ 15:33:53]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:33:53]   GPU count: 1
+[codecarbon INFO @ 15:33:53]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:34:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:06] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:34:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:06] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:34:06] Energy consumed for all CPUs : 0.000264 kWh. Total CPU Power : 95.28141489455686 W
+[codecarbon INFO @ 15:34:06] 0.000628 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:34:07] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:34:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:08] [setup] GPU Tracking...
+[codecarbon INFO @ 15:34:08] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:34:08] [setup] CPU Tracking...
+[codecarbon INFO @ 15:34:08] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:34:08] >>> Tracker's metadata:
+[codecarbon INFO @ 15:34:08]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:34:08]   Python version: 3.6.8
+[codecarbon INFO @ 15:34:08]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:34:08]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:34:08]   CPU count: 1
+[codecarbon INFO @ 15:34:08]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:34:08]   GPU count: 1
+[codecarbon INFO @ 15:34:08]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:34:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:21] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:34:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:21] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:34:21] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.20321887266729 W
+[codecarbon INFO @ 15:34:21] 0.000631 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:34:22] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:34:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:22] [setup] GPU Tracking...
+[codecarbon INFO @ 15:34:22] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:34:22] [setup] CPU Tracking...
+[codecarbon INFO @ 15:34:22] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:34:22] >>> Tracker's metadata:
+[codecarbon INFO @ 15:34:22]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:34:22]   Python version: 3.6.8
+[codecarbon INFO @ 15:34:22]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:34:22]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:34:22]   CPU count: 1
+[codecarbon INFO @ 15:34:22]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:34:22]   GPU count: 1
+[codecarbon INFO @ 15:34:22]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:34:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:35] Energy consumed for RAM : 0.000262 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:34:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:35] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.398 W
+[codecarbon INFO @ 15:34:35] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 95.40261489293931 W
+[codecarbon INFO @ 15:34:35] 0.000636 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:34:37] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:34:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:37] [setup] GPU Tracking...
+[codecarbon INFO @ 15:34:37] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:34:37] [setup] CPU Tracking...
+[codecarbon INFO @ 15:34:37] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:34:37] >>> Tracker's metadata:
+[codecarbon INFO @ 15:34:37]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:34:37]   Python version: 3.6.8
+[codecarbon INFO @ 15:34:37]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:34:37]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:34:37]   CPU count: 1
+[codecarbon INFO @ 15:34:37]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:34:37]   GPU count: 1
+[codecarbon INFO @ 15:34:37]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:34:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:50] Energy consumed for RAM : 0.000268 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:34:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:50] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 37.313 W
+[codecarbon INFO @ 15:34:50] Energy consumed for all CPUs : 0.000274 kWh. Total CPU Power : 95.06598757825867 W
+[codecarbon INFO @ 15:34:50] 0.000650 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:34:52] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:34:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:34:52] [setup] GPU Tracking...
+[codecarbon INFO @ 15:34:52] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:34:52] [setup] CPU Tracking...
+[codecarbon INFO @ 15:34:52] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:34:52] >>> Tracker's metadata:
+[codecarbon INFO @ 15:34:52]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:34:52]   Python version: 3.6.8
+[codecarbon INFO @ 15:34:52]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:34:52]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:34:52]   CPU count: 1
+[codecarbon INFO @ 15:34:52]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:34:52]   GPU count: 1
+[codecarbon INFO @ 15:34:52]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:35:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:05] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:35:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:05] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:35:05] Energy consumed for all CPUs : 0.000263 kWh. Total CPU Power : 94.83776379252399 W
+[codecarbon INFO @ 15:35:05] 0.000629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:35:06] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:35:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:06] [setup] GPU Tracking...
+[codecarbon INFO @ 15:35:06] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:35:06] [setup] CPU Tracking...
+[codecarbon INFO @ 15:35:06] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:35:06] >>> Tracker's metadata:
+[codecarbon INFO @ 15:35:06]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:35:06]   Python version: 3.6.8
+[codecarbon INFO @ 15:35:06]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:35:06]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:35:06]   CPU count: 1
+[codecarbon INFO @ 15:35:06]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:35:06]   GPU count: 1
+[codecarbon INFO @ 15:35:06]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:35:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:19] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:35:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:19] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:35:19] Energy consumed for all CPUs : 0.000264 kWh. Total CPU Power : 95.48562326224412 W
+[codecarbon INFO @ 15:35:19] 0.000629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:35:20] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:35:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:20] [setup] GPU Tracking...
+[codecarbon INFO @ 15:35:20] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:35:20] [setup] CPU Tracking...
+[codecarbon INFO @ 15:35:20] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:35:21] >>> Tracker's metadata:
+[codecarbon INFO @ 15:35:21]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:35:21]   Python version: 3.6.8
+[codecarbon INFO @ 15:35:21]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:35:21]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:35:21]   CPU count: 1
+[codecarbon INFO @ 15:35:21]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:35:21]   GPU count: 1
+[codecarbon INFO @ 15:35:21]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:35:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:34] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:35:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:34] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:35:34] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 95.78157322158799 W
+[codecarbon INFO @ 15:35:34] 0.000645 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:35:35] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:35:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:35] [setup] GPU Tracking...
+[codecarbon INFO @ 15:35:35] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:35:35] [setup] CPU Tracking...
+[codecarbon INFO @ 15:35:35] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:35:35] >>> Tracker's metadata:
+[codecarbon INFO @ 15:35:35]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:35:35]   Python version: 3.6.8
+[codecarbon INFO @ 15:35:35]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:35:35]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:35:35]   CPU count: 1
+[codecarbon INFO @ 15:35:35]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:35:35]   GPU count: 1
+[codecarbon INFO @ 15:35:35]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:35:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:48] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:35:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:48] Energy consumed for all GPUs : 0.000104 kWh. Total GPU Power : 37.314 W
+[codecarbon INFO @ 15:35:48] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.83245632959714 W
+[codecarbon INFO @ 15:35:48] 0.000630 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:35:50] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:35:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:35:50] [setup] GPU Tracking...
+[codecarbon INFO @ 15:35:50] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:35:50] [setup] CPU Tracking...
+[codecarbon INFO @ 15:35:50] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:35:50] >>> Tracker's metadata:
+[codecarbon INFO @ 15:35:50]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:35:50]   Python version: 3.6.8
+[codecarbon INFO @ 15:35:50]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:35:50]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:35:50]   CPU count: 1
+[codecarbon INFO @ 15:35:50]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:35:50]   GPU count: 1
+[codecarbon INFO @ 15:35:50]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:36:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:04] Energy consumed for RAM : 0.000277 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:36:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:04] Energy consumed for all GPUs : 0.000115 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:36:04] Energy consumed for all CPUs : 0.000289 kWh. Total CPU Power : 96.98390279546817 W
+[codecarbon INFO @ 15:36:04] 0.000681 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:36:05] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:36:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:05] [setup] GPU Tracking...
+[codecarbon INFO @ 15:36:05] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:36:05] [setup] CPU Tracking...
+[codecarbon INFO @ 15:36:05] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:36:06] >>> Tracker's metadata:
+[codecarbon INFO @ 15:36:06]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:36:06]   Python version: 3.6.8
+[codecarbon INFO @ 15:36:06]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:36:06]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:36:06]   CPU count: 1
+[codecarbon INFO @ 15:36:06]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:36:06]   GPU count: 1
+[codecarbon INFO @ 15:36:06]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:36:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:19] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:36:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:19] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:36:19] Energy consumed for all CPUs : 0.000265 kWh. Total CPU Power : 95.60262192163333 W
+[codecarbon INFO @ 15:36:19] 0.000629 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:36:20] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:36:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:20] [setup] GPU Tracking...
+[codecarbon INFO @ 15:36:20] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:36:20] [setup] CPU Tracking...
+[codecarbon INFO @ 15:36:20] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:36:20] >>> Tracker's metadata:
+[codecarbon INFO @ 15:36:20]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:36:20]   Python version: 3.6.8
+[codecarbon INFO @ 15:36:20]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:36:20]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:36:20]   CPU count: 1
+[codecarbon INFO @ 15:36:20]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:36:20]   GPU count: 1
+[codecarbon INFO @ 15:36:20]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:36:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:33] Energy consumed for RAM : 0.000265 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:36:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:33] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:36:34] Energy consumed for all CPUs : 0.000272 kWh. Total CPU Power : 95.51847776634585 W
+[codecarbon INFO @ 15:36:34] 0.000647 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:36:35] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:36:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:35] [setup] GPU Tracking...
+[codecarbon INFO @ 15:36:35] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:36:35] [setup] CPU Tracking...
+[codecarbon INFO @ 15:36:35] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:36:35] >>> Tracker's metadata:
+[codecarbon INFO @ 15:36:35]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:36:35]   Python version: 3.6.8
+[codecarbon INFO @ 15:36:35]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:36:35]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:36:35]   CPU count: 1
+[codecarbon INFO @ 15:36:35]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:36:35]   GPU count: 1
+[codecarbon INFO @ 15:36:35]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:36:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:48] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:36:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:48] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.354 W
+[codecarbon INFO @ 15:36:48] Energy consumed for all CPUs : 0.000263 kWh. Total CPU Power : 95.38967684304745 W
+[codecarbon INFO @ 15:36:48] 0.000626 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:36:49] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:36:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:36:49] [setup] GPU Tracking...
+[codecarbon INFO @ 15:36:49] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:36:49] [setup] CPU Tracking...
+[codecarbon INFO @ 15:36:49] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:36:49] >>> Tracker's metadata:
+[codecarbon INFO @ 15:36:49]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:36:49]   Python version: 3.6.8
+[codecarbon INFO @ 15:36:49]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:36:49]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:36:49]   CPU count: 1
+[codecarbon INFO @ 15:36:49]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:36:49]   GPU count: 1
+[codecarbon INFO @ 15:36:49]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:37:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:03] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:37:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:03] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 37.206 W
+[codecarbon INFO @ 15:37:03] Energy consumed for all CPUs : 0.000274 kWh. Total CPU Power : 94.79730018681299 W
+[codecarbon INFO @ 15:37:03] 0.000645 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:37:04] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:37:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:04] [setup] GPU Tracking...
+[codecarbon INFO @ 15:37:04] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:37:04] [setup] CPU Tracking...
+[codecarbon INFO @ 15:37:04] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:37:04] >>> Tracker's metadata:
+[codecarbon INFO @ 15:37:04]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:37:04]   Python version: 3.6.8
+[codecarbon INFO @ 15:37:04]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:37:04]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:37:04]   CPU count: 1
+[codecarbon INFO @ 15:37:04]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:37:04]   GPU count: 1
+[codecarbon INFO @ 15:37:04]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:37:27] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:27] Energy consumed for RAM : 0.000393 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:37:28] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:28] Energy consumed for all GPUs : 0.000158 kWh. Total GPU Power : 37.492 W
+[codecarbon INFO @ 15:37:28] Energy consumed for all CPUs : 0.000398 kWh. Total CPU Power : 94.2157188044294 W
+[codecarbon INFO @ 15:37:28] 0.000949 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 15:37:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:38] Energy consumed for RAM : 0.000396 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:37:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:38] Energy consumed for all GPUs : 0.000234 kWh. Total GPU Power : 26.423000000000002 W
+[codecarbon INFO @ 15:37:38] Energy consumed for all CPUs : 0.000661 kWh. Total CPU Power : 92.16444448454419 W
+[codecarbon INFO @ 15:37:38] 0.001291 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:37:39] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:37:39] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:39] [setup] GPU Tracking...
+[codecarbon INFO @ 15:37:39] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:37:39] [setup] CPU Tracking...
+[codecarbon INFO @ 15:37:39] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:37:39] >>> Tracker's metadata:
+[codecarbon INFO @ 15:37:39]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:37:39]   Python version: 3.6.8
+[codecarbon INFO @ 15:37:39]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:37:39]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:37:39]   CPU count: 1
+[codecarbon INFO @ 15:37:39]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:37:39]   GPU count: 1
+[codecarbon INFO @ 15:37:39]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:37:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:52] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:37:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:52] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.504 W
+[codecarbon INFO @ 15:37:52] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.11027447688966 W
+[codecarbon INFO @ 15:37:52] 0.000632 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:37:54] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:37:54] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:37:54] [setup] GPU Tracking...
+[codecarbon INFO @ 15:37:54] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:37:54] [setup] CPU Tracking...
+[codecarbon INFO @ 15:37:54] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:37:54] >>> Tracker's metadata:
+[codecarbon INFO @ 15:37:54]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:37:54]   Python version: 3.6.8
+[codecarbon INFO @ 15:37:54]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:37:54]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:37:54]   CPU count: 1
+[codecarbon INFO @ 15:37:54]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:37:54]   GPU count: 1
+[codecarbon INFO @ 15:37:54]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:38:07] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:07] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:38:07] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:07] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.641 W
+[codecarbon INFO @ 15:38:07] Energy consumed for all CPUs : 0.000261 kWh. Total CPU Power : 94.81000205338381 W
+[codecarbon INFO @ 15:38:07] 0.000622 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:38:08] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:38:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:08] [setup] GPU Tracking...
+[codecarbon INFO @ 15:38:08] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:38:08] [setup] CPU Tracking...
+[codecarbon INFO @ 15:38:08] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:38:08] >>> Tracker's metadata:
+[codecarbon INFO @ 15:38:08]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:38:08]   Python version: 3.6.8
+[codecarbon INFO @ 15:38:08]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:38:08]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:38:08]   CPU count: 1
+[codecarbon INFO @ 15:38:08]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:38:08]   GPU count: 1
+[codecarbon INFO @ 15:38:08]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:38:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:22] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:38:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:22] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.259 W
+[codecarbon INFO @ 15:38:22] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 95.03213297652906 W
+[codecarbon INFO @ 15:38:22] 0.000641 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:38:23] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:38:23] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:23] [setup] GPU Tracking...
+[codecarbon INFO @ 15:38:23] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:38:23] [setup] CPU Tracking...
+[codecarbon INFO @ 15:38:23] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:38:23] >>> Tracker's metadata:
+[codecarbon INFO @ 15:38:23]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:38:23]   Python version: 3.6.8
+[codecarbon INFO @ 15:38:23]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:38:23]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:38:23]   CPU count: 1
+[codecarbon INFO @ 15:38:23]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:38:23]   GPU count: 1
+[codecarbon INFO @ 15:38:23]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:38:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:36] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:38:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:36] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:38:36] Energy consumed for all CPUs : 0.000270 kWh. Total CPU Power : 94.96741442049131 W
+[codecarbon INFO @ 15:38:36] 0.000642 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:38:37] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:38:38] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:38] [setup] GPU Tracking...
+[codecarbon INFO @ 15:38:38] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:38:38] [setup] CPU Tracking...
+[codecarbon INFO @ 15:38:38] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:38:38] >>> Tracker's metadata:
+[codecarbon INFO @ 15:38:38]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:38:38]   Python version: 3.6.8
+[codecarbon INFO @ 15:38:38]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:38:38]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:38:38]   CPU count: 1
+[codecarbon INFO @ 15:38:38]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:38:38]   GPU count: 1
+[codecarbon INFO @ 15:38:38]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:38:51] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:51] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:38:51] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:51] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:38:51] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 95.02101657920223 W
+[codecarbon INFO @ 15:38:51] 0.000626 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:38:52] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:38:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:38:52] [setup] GPU Tracking...
+[codecarbon INFO @ 15:38:52] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:38:52] [setup] CPU Tracking...
+[codecarbon INFO @ 15:38:52] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:38:52] >>> Tracker's metadata:
+[codecarbon INFO @ 15:38:52]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:38:52]   Python version: 3.6.8
+[codecarbon INFO @ 15:38:52]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:38:52]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:38:52]   CPU count: 1
+[codecarbon INFO @ 15:38:52]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:38:52]   GPU count: 1
+[codecarbon INFO @ 15:38:52]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:39:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:05] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:39:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:05] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:39:05] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 95.46604220493873 W
+[codecarbon INFO @ 15:39:05] 0.000635 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:39:06] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:39:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:06] [setup] GPU Tracking...
+[codecarbon INFO @ 15:39:06] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:39:06] [setup] CPU Tracking...
+[codecarbon INFO @ 15:39:06] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:39:07] >>> Tracker's metadata:
+[codecarbon INFO @ 15:39:07]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:39:07]   Python version: 3.6.8
+[codecarbon INFO @ 15:39:07]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:39:07]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:39:07]   CPU count: 1
+[codecarbon INFO @ 15:39:07]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:39:07]   GPU count: 1
+[codecarbon INFO @ 15:39:07]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:39:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:20] Energy consumed for RAM : 0.000261 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:39:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:20] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.738 W
+[codecarbon INFO @ 15:39:20] Energy consumed for all CPUs : 0.000268 kWh. Total CPU Power : 95.46901160182259 W
+[codecarbon INFO @ 15:39:20] 0.000638 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:39:21] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:39:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:21] [setup] GPU Tracking...
+[codecarbon INFO @ 15:39:21] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:39:21] [setup] CPU Tracking...
+[codecarbon INFO @ 15:39:21] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:39:21] >>> Tracker's metadata:
+[codecarbon INFO @ 15:39:21]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:39:21]   Python version: 3.6.8
+[codecarbon INFO @ 15:39:21]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:39:21]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:39:21]   CPU count: 1
+[codecarbon INFO @ 15:39:21]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:39:21]   GPU count: 1
+[codecarbon INFO @ 15:39:21]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:39:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:34] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:39:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:34] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:39:34] Energy consumed for all CPUs : 0.000264 kWh. Total CPU Power : 95.30890935417729 W
+[codecarbon INFO @ 15:39:34] 0.000628 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:39:36] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:39:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:36] [setup] GPU Tracking...
+[codecarbon INFO @ 15:39:36] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:39:36] [setup] CPU Tracking...
+[codecarbon INFO @ 15:39:36] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:39:36] >>> Tracker's metadata:
+[codecarbon INFO @ 15:39:36]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:39:36]   Python version: 3.6.8
+[codecarbon INFO @ 15:39:36]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:39:36]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:39:36]   CPU count: 1
+[codecarbon INFO @ 15:39:36]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:39:36]   GPU count: 1
+[codecarbon INFO @ 15:39:36]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:39:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:49] Energy consumed for RAM : 0.000265 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:39:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:49] Energy consumed for all GPUs : 0.000111 kWh. Total GPU Power : 38.83400000000001 W
+[codecarbon INFO @ 15:39:49] Energy consumed for all CPUs : 0.000278 kWh. Total CPU Power : 97.24194722143173 W
+[codecarbon INFO @ 15:39:49] 0.000654 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:39:50] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:39:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:39:50] [setup] GPU Tracking...
+[codecarbon INFO @ 15:39:50] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:39:50] [setup] CPU Tracking...
+[codecarbon INFO @ 15:39:50] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:39:51] >>> Tracker's metadata:
+[codecarbon INFO @ 15:39:51]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:39:51]   Python version: 3.6.8
+[codecarbon INFO @ 15:39:51]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:39:51]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:39:51]   CPU count: 1
+[codecarbon INFO @ 15:39:51]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:39:51]   GPU count: 1
+[codecarbon INFO @ 15:39:51]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:40:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:04] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:40:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:04] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:40:04] Energy consumed for all CPUs : 0.000269 kWh. Total CPU Power : 94.98502041931889 W
+[codecarbon INFO @ 15:40:04] 0.000641 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:40:05] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:40:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:05] [setup] GPU Tracking...
+[codecarbon INFO @ 15:40:05] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:40:05] [setup] CPU Tracking...
+[codecarbon INFO @ 15:40:05] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:40:05] >>> Tracker's metadata:
+[codecarbon INFO @ 15:40:05]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:40:05]   Python version: 3.6.8
+[codecarbon INFO @ 15:40:05]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:40:05]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:40:05]   CPU count: 1
+[codecarbon INFO @ 15:40:05]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:40:05]   GPU count: 1
+[codecarbon INFO @ 15:40:05]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:40:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:18] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:40:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:19] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:40:19] Energy consumed for all CPUs : 0.000267 kWh. Total CPU Power : 94.52592696773118 W
+[codecarbon INFO @ 15:40:19] 0.000638 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:40:20] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:40:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:20] [setup] GPU Tracking...
+[codecarbon INFO @ 15:40:20] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:40:20] [setup] CPU Tracking...
+[codecarbon INFO @ 15:40:20] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:40:20] >>> Tracker's metadata:
+[codecarbon INFO @ 15:40:20]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:40:20]   Python version: 3.6.8
+[codecarbon INFO @ 15:40:20]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:40:20]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:40:20]   CPU count: 1
+[codecarbon INFO @ 15:40:20]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:40:20]   GPU count: 1
+[codecarbon INFO @ 15:40:20]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:40:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:33] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:40:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:33] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:40:33] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 94.56747828394874 W
+[codecarbon INFO @ 15:40:33] 0.000627 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:40:34] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:40:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:34] [setup] GPU Tracking...
+[codecarbon INFO @ 15:40:34] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:40:34] [setup] CPU Tracking...
+[codecarbon INFO @ 15:40:34] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:40:34] >>> Tracker's metadata:
+[codecarbon INFO @ 15:40:34]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:40:34]   Python version: 3.6.8
+[codecarbon INFO @ 15:40:34]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:40:34]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:40:34]   CPU count: 1
+[codecarbon INFO @ 15:40:34]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:40:34]   GPU count: 1
+[codecarbon INFO @ 15:40:34]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:40:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:47] Energy consumed for RAM : 0.000256 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:40:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:48] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:40:48] Energy consumed for all CPUs : 0.000261 kWh. Total CPU Power : 95.00940356401826 W
+[codecarbon INFO @ 15:40:48] 0.000624 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:40:49] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:40:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:40:49] [setup] GPU Tracking...
+[codecarbon INFO @ 15:40:49] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:40:49] [setup] CPU Tracking...
+[codecarbon INFO @ 15:40:49] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:40:49] >>> Tracker's metadata:
+[codecarbon INFO @ 15:40:49]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:40:49]   Python version: 3.6.8
+[codecarbon INFO @ 15:40:49]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:40:49]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:40:49]   CPU count: 1
+[codecarbon INFO @ 15:40:49]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:40:49]   GPU count: 1
+[codecarbon INFO @ 15:40:49]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:41:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:02] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:41:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:02] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.545 W
+[codecarbon INFO @ 15:41:02] Energy consumed for all CPUs : 0.000271 kWh. Total CPU Power : 95.64014882295805 W
+[codecarbon INFO @ 15:41:02] 0.000644 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:41:03] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:41:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:03] [setup] GPU Tracking...
+[codecarbon INFO @ 15:41:03] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:41:03] [setup] CPU Tracking...
+[codecarbon INFO @ 15:41:03] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:41:03] >>> Tracker's metadata:
+[codecarbon INFO @ 15:41:03]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:41:03]   Python version: 3.6.8
+[codecarbon INFO @ 15:41:03]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:41:03]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:41:03]   CPU count: 1
+[codecarbon INFO @ 15:41:03]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:41:03]   GPU count: 1
+[codecarbon INFO @ 15:41:03]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:41:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:17] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:41:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:17] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:41:17] Energy consumed for all CPUs : 0.000273 kWh. Total CPU Power : 96.56896319561176 W
+[codecarbon INFO @ 15:41:17] 0.000646 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:41:18] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:41:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:18] [setup] GPU Tracking...
+[codecarbon INFO @ 15:41:18] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:41:18] [setup] CPU Tracking...
+[codecarbon INFO @ 15:41:18] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:41:18] >>> Tracker's metadata:
+[codecarbon INFO @ 15:41:18]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:41:18]   Python version: 3.6.8
+[codecarbon INFO @ 15:41:18]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:41:18]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:41:18]   CPU count: 1
+[codecarbon INFO @ 15:41:18]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:41:18]   GPU count: 1
+[codecarbon INFO @ 15:41:18]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:41:31] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:31] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:41:31] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:31] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:41:31] Energy consumed for all CPUs : 0.000262 kWh. Total CPU Power : 94.33100718335535 W
+[codecarbon INFO @ 15:41:31] 0.000627 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:41:32] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:41:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:32] [setup] GPU Tracking...
+[codecarbon INFO @ 15:41:32] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:41:32] [setup] CPU Tracking...
+[codecarbon INFO @ 15:41:32] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:41:33] >>> Tracker's metadata:
+[codecarbon INFO @ 15:41:33]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:41:33]   Python version: 3.6.8
+[codecarbon INFO @ 15:41:33]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:41:33]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:41:33]   CPU count: 1
+[codecarbon INFO @ 15:41:33]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:41:33]   GPU count: 1
+[codecarbon INFO @ 15:41:33]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:41:46] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:46] Energy consumed for RAM : 0.000262 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:41:46] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:46] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.302 W
+[codecarbon INFO @ 15:41:46] Energy consumed for all CPUs : 0.000328 kWh. Total CPU Power : 116.3026948715858 W
+[codecarbon INFO @ 15:41:46] 0.000695 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:41:47] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:41:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:41:47] [setup] GPU Tracking...
+[codecarbon INFO @ 15:41:47] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:41:47] [setup] CPU Tracking...
+[codecarbon INFO @ 15:41:47] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:41:47] >>> Tracker's metadata:
+[codecarbon INFO @ 15:41:47]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:41:47]   Python version: 3.6.8
+[codecarbon INFO @ 15:41:47]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:41:47]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:41:47]   CPU count: 1
+[codecarbon INFO @ 15:41:47]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:41:47]   GPU count: 1
+[codecarbon INFO @ 15:41:47]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:42:01] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:01] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:42:01] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:01] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:42:01] Energy consumed for all CPUs : 0.000361 kWh. Total CPU Power : 127.60122261578121 W
+[codecarbon INFO @ 15:42:01] 0.000733 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:42:02] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:42:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:02] [setup] GPU Tracking...
+[codecarbon INFO @ 15:42:02] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:42:02] [setup] CPU Tracking...
+[codecarbon INFO @ 15:42:02] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:42:02] >>> Tracker's metadata:
+[codecarbon INFO @ 15:42:02]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:42:02]   Python version: 3.6.8
+[codecarbon INFO @ 15:42:02]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:42:02]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:42:02]   CPU count: 1
+[codecarbon INFO @ 15:42:02]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:42:02]   GPU count: 1
+[codecarbon INFO @ 15:42:02]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:42:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:20] Energy consumed for RAM : 0.000393 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:42:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:20] Energy consumed for all GPUs : 0.000167 kWh. Total GPU Power : 39.598 W
+[codecarbon INFO @ 15:42:20] Energy consumed for all CPUs : 0.000533 kWh. Total CPU Power : 126.12470265861728 W
+[codecarbon INFO @ 15:42:20] 0.001093 kWh of electricity used since the beginning.
+[codecarbon WARNING @ 15:42:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:20] Energy consumed for RAM : 0.000792 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:42:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:21] Energy consumed for all GPUs : 0.000168 kWh. Total GPU Power : 37.206 W
+[codecarbon INFO @ 15:42:21] Energy consumed for all CPUs : 0.000538 kWh. Total CPU Power : 125.13993079083977 W
+[codecarbon INFO @ 15:42:21] 0.001498 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:42:22] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:42:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:22] [setup] GPU Tracking...
+[codecarbon INFO @ 15:42:22] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:42:22] [setup] CPU Tracking...
+[codecarbon INFO @ 15:42:22] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:42:22] >>> Tracker's metadata:
+[codecarbon INFO @ 15:42:22]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:42:22]   Python version: 3.6.8
+[codecarbon INFO @ 15:42:22]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:42:22]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:42:22]   CPU count: 1
+[codecarbon INFO @ 15:42:22]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:42:22]   GPU count: 1
+[codecarbon INFO @ 15:42:22]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:42:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:35] Energy consumed for RAM : 0.000261 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:42:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:35] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:42:35] Energy consumed for all CPUs : 0.000359 kWh. Total CPU Power : 127.65199348284789 W
+[codecarbon INFO @ 15:42:35] 0.000728 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:42:36] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:42:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:36] [setup] GPU Tracking...
+[codecarbon INFO @ 15:42:36] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:42:36] [setup] CPU Tracking...
+[codecarbon INFO @ 15:42:36] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:42:36] >>> Tracker's metadata:
+[codecarbon INFO @ 15:42:36]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:42:36]   Python version: 3.6.8
+[codecarbon INFO @ 15:42:36]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:42:36]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:42:36]   CPU count: 1
+[codecarbon INFO @ 15:42:36]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:42:36]   GPU count: 1
+[codecarbon INFO @ 15:42:36]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:42:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:49] Energy consumed for RAM : 0.000255 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:42:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:49] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:42:49] Energy consumed for all CPUs : 0.000351 kWh. Total CPU Power : 128.1240654013726 W
+[codecarbon INFO @ 15:42:49] 0.000712 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:42:51] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:42:51] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:42:51] [setup] GPU Tracking...
+[codecarbon INFO @ 15:42:51] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:42:51] [setup] CPU Tracking...
+[codecarbon INFO @ 15:42:51] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:42:51] >>> Tracker's metadata:
+[codecarbon INFO @ 15:42:51]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:42:51]   Python version: 3.6.8
+[codecarbon INFO @ 15:42:51]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:42:51]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:42:51]   CPU count: 1
+[codecarbon INFO @ 15:42:51]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:42:51]   GPU count: 1
+[codecarbon INFO @ 15:42:51]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:43:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:04] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:43:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:04] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.545 W
+[codecarbon INFO @ 15:43:04] Energy consumed for all CPUs : 0.000359 kWh. Total CPU Power : 128.11602032175927 W
+[codecarbon INFO @ 15:43:04] 0.000727 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:43:05] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:43:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:06] [setup] GPU Tracking...
+[codecarbon INFO @ 15:43:06] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:43:06] [setup] CPU Tracking...
+[codecarbon INFO @ 15:43:06] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:43:06] >>> Tracker's metadata:
+[codecarbon INFO @ 15:43:06]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:43:06]   Python version: 3.6.8
+[codecarbon INFO @ 15:43:06]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:43:06]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:43:06]   CPU count: 1
+[codecarbon INFO @ 15:43:06]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:43:06]   GPU count: 1
+[codecarbon INFO @ 15:43:06]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:43:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:19] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:43:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:19] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.302 W
+[codecarbon INFO @ 15:43:19] Energy consumed for all CPUs : 0.000363 kWh. Total CPU Power : 128.26489502586088 W
+[codecarbon INFO @ 15:43:19] 0.000731 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:43:20] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:43:20] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:20] [setup] GPU Tracking...
+[codecarbon INFO @ 15:43:20] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:43:20] [setup] CPU Tracking...
+[codecarbon INFO @ 15:43:20] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:43:20] >>> Tracker's metadata:
+[codecarbon INFO @ 15:43:20]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:43:20]   Python version: 3.6.8
+[codecarbon INFO @ 15:43:20]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:43:20]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:43:20]   CPU count: 1
+[codecarbon INFO @ 15:43:20]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:43:20]   GPU count: 1
+[codecarbon INFO @ 15:43:20]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:43:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:33] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:43:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:34] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:43:34] Energy consumed for all CPUs : 0.000360 kWh. Total CPU Power : 128.5446661774283 W
+[codecarbon INFO @ 15:43:34] 0.000730 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:43:35] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:43:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:35] [setup] GPU Tracking...
+[codecarbon INFO @ 15:43:35] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:43:35] [setup] CPU Tracking...
+[codecarbon INFO @ 15:43:35] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:43:35] >>> Tracker's metadata:
+[codecarbon INFO @ 15:43:35]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:43:35]   Python version: 3.6.8
+[codecarbon INFO @ 15:43:35]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:43:35]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:43:35]   CPU count: 1
+[codecarbon INFO @ 15:43:35]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:43:35]   GPU count: 1
+[codecarbon INFO @ 15:43:35]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:43:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:48] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:43:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:48] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:43:48] Energy consumed for all CPUs : 0.000358 kWh. Total CPU Power : 128.31762038056334 W
+[codecarbon INFO @ 15:43:48] 0.000725 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:43:49] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:43:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:43:49] [setup] GPU Tracking...
+[codecarbon INFO @ 15:43:49] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:43:49] [setup] CPU Tracking...
+[codecarbon INFO @ 15:43:49] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:43:49] >>> Tracker's metadata:
+[codecarbon INFO @ 15:43:49]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:43:49]   Python version: 3.6.8
+[codecarbon INFO @ 15:43:49]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:43:49]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:43:49]   CPU count: 1
+[codecarbon INFO @ 15:43:49]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:43:49]   GPU count: 1
+[codecarbon INFO @ 15:43:49]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:44:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:03] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:44:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:03] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:44:03] Energy consumed for all CPUs : 0.000364 kWh. Total CPU Power : 128.43511564853733 W
+[codecarbon INFO @ 15:44:03] 0.000738 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:44:04] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:44:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:04] [setup] GPU Tracking...
+[codecarbon INFO @ 15:44:04] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:44:04] [setup] CPU Tracking...
+[codecarbon INFO @ 15:44:04] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:44:04] >>> Tracker's metadata:
+[codecarbon INFO @ 15:44:04]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:44:04]   Python version: 3.6.8
+[codecarbon INFO @ 15:44:04]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:44:04]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:44:04]   CPU count: 1
+[codecarbon INFO @ 15:44:04]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:44:04]   GPU count: 1
+[codecarbon INFO @ 15:44:04]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:44:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:17] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:44:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:17] Energy consumed for all GPUs : 0.000105 kWh. Total GPU Power : 37.397 W
+[codecarbon INFO @ 15:44:17] Energy consumed for all CPUs : 0.000360 kWh. Total CPU Power : 128.65607483016254 W
+[codecarbon INFO @ 15:44:17] 0.000725 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:44:18] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:44:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:19] [setup] GPU Tracking...
+[codecarbon INFO @ 15:44:19] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:44:19] [setup] CPU Tracking...
+[codecarbon INFO @ 15:44:19] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:44:19] >>> Tracker's metadata:
+[codecarbon INFO @ 15:44:19]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:44:19]   Python version: 3.6.8
+[codecarbon INFO @ 15:44:19]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:44:19]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:44:19]   CPU count: 1
+[codecarbon INFO @ 15:44:19]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:44:19]   GPU count: 1
+[codecarbon INFO @ 15:44:19]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:44:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:32] Energy consumed for RAM : 0.000266 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:44:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:32] Energy consumed for all GPUs : 0.000111 kWh. Total GPU Power : 38.929 W
+[codecarbon INFO @ 15:44:32] Energy consumed for all CPUs : 0.000367 kWh. Total CPU Power : 128.50333310484174 W
+[codecarbon INFO @ 15:44:32] 0.000743 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:44:33] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:44:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:33] [setup] GPU Tracking...
+[codecarbon INFO @ 15:44:33] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:44:33] [setup] CPU Tracking...
+[codecarbon INFO @ 15:44:33] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:44:33] >>> Tracker's metadata:
+[codecarbon INFO @ 15:44:33]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:44:33]   Python version: 3.6.8
+[codecarbon INFO @ 15:44:33]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:44:33]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:44:33]   CPU count: 1
+[codecarbon INFO @ 15:44:33]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:44:33]   GPU count: 1
+[codecarbon INFO @ 15:44:33]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:44:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:47] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:44:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:47] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.929 W
+[codecarbon INFO @ 15:44:47] Energy consumed for all CPUs : 0.000357 kWh. Total CPU Power : 128.37912248175164 W
+[codecarbon INFO @ 15:44:47] 0.000724 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:44:48] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:44:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:44:48] [setup] GPU Tracking...
+[codecarbon INFO @ 15:44:48] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:44:48] [setup] CPU Tracking...
+[codecarbon INFO @ 15:44:48] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:44:48] >>> Tracker's metadata:
+[codecarbon INFO @ 15:44:48]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:44:48]   Python version: 3.6.8
+[codecarbon INFO @ 15:44:48]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:44:48]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:44:48]   CPU count: 1
+[codecarbon INFO @ 15:44:48]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:44:48]   GPU count: 1
+[codecarbon INFO @ 15:44:48]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:45:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:06] Energy consumed for RAM : 0.000392 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:45:07] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:07] Energy consumed for all GPUs : 0.000162 kWh. Total GPU Power : 37.684 W
+[codecarbon INFO @ 15:45:07] Energy consumed for all CPUs : 0.000548 kWh. Total CPU Power : 127.28618073136063 W
+[codecarbon INFO @ 15:45:07] 0.001103 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:45:08] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:45:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:08] [setup] GPU Tracking...
+[codecarbon INFO @ 15:45:08] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:45:08] [setup] CPU Tracking...
+[codecarbon INFO @ 15:45:08] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:45:08] >>> Tracker's metadata:
+[codecarbon INFO @ 15:45:08]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:45:08]   Python version: 3.6.8
+[codecarbon INFO @ 15:45:08]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:45:08]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:45:08]   CPU count: 1
+[codecarbon INFO @ 15:45:08]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:45:08]   GPU count: 1
+[codecarbon INFO @ 15:45:08]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:45:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:21] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:45:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:21] Energy consumed for all GPUs : 0.000107 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:45:21] Energy consumed for all CPUs : 0.000356 kWh. Total CPU Power : 128.3591626260641 W
+[codecarbon INFO @ 15:45:21] 0.000721 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:45:22] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:45:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:22] [setup] GPU Tracking...
+[codecarbon INFO @ 15:45:22] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:45:22] [setup] CPU Tracking...
+[codecarbon INFO @ 15:45:22] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:45:23] >>> Tracker's metadata:
+[codecarbon INFO @ 15:45:23]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:45:23]   Python version: 3.6.8
+[codecarbon INFO @ 15:45:23]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:45:23]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:45:23]   CPU count: 1
+[codecarbon INFO @ 15:45:23]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:45:23]   GPU count: 1
+[codecarbon INFO @ 15:45:23]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:45:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:36] Energy consumed for RAM : 0.000265 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:45:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:36] Energy consumed for all GPUs : 0.000111 kWh. Total GPU Power : 38.929 W
+[codecarbon INFO @ 15:45:36] Energy consumed for all CPUs : 0.000366 kWh. Total CPU Power : 128.62073102206992 W
+[codecarbon INFO @ 15:45:36] 0.000742 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:45:37] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:45:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:37] [setup] GPU Tracking...
+[codecarbon INFO @ 15:45:37] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:45:37] [setup] CPU Tracking...
+[codecarbon INFO @ 15:45:37] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:45:37] >>> Tracker's metadata:
+[codecarbon INFO @ 15:45:37]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:45:37]   Python version: 3.6.8
+[codecarbon INFO @ 15:45:37]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:45:37]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:45:37]   CPU count: 1
+[codecarbon INFO @ 15:45:37]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:45:37]   GPU count: 1
+[codecarbon INFO @ 15:45:37]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:45:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:50] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:45:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:51] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:45:51] Energy consumed for all CPUs : 0.000360 kWh. Total CPU Power : 128.76617019699898 W
+[codecarbon INFO @ 15:45:51] 0.000728 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:45:52] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:45:52] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:45:52] [setup] GPU Tracking...
+[codecarbon INFO @ 15:45:52] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:45:52] [setup] CPU Tracking...
+[codecarbon INFO @ 15:45:52] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:45:52] >>> Tracker's metadata:
+[codecarbon INFO @ 15:45:52]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:45:52]   Python version: 3.6.8
+[codecarbon INFO @ 15:45:52]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:45:52]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:45:52]   CPU count: 1
+[codecarbon INFO @ 15:45:52]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:45:52]   GPU count: 1
+[codecarbon INFO @ 15:45:52]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:46:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:05] Energy consumed for RAM : 0.000258 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:46:05] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:05] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.833 W
+[codecarbon INFO @ 15:46:05] Energy consumed for all CPUs : 0.000358 kWh. Total CPU Power : 128.8790797121313 W
+[codecarbon INFO @ 15:46:05] 0.000724 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:46:06] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:46:06] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:06] [setup] GPU Tracking...
+[codecarbon INFO @ 15:46:06] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:46:06] [setup] CPU Tracking...
+[codecarbon INFO @ 15:46:06] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:46:06] >>> Tracker's metadata:
+[codecarbon INFO @ 15:46:06]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:46:06]   Python version: 3.6.8
+[codecarbon INFO @ 15:46:06]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:46:06]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:46:06]   CPU count: 1
+[codecarbon INFO @ 15:46:06]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:46:06]   GPU count: 1
+[codecarbon INFO @ 15:46:06]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:46:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:19] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:46:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:19] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.929 W
+[codecarbon INFO @ 15:46:19] Energy consumed for all CPUs : 0.000357 kWh. Total CPU Power : 128.8534406865353 W
+[codecarbon INFO @ 15:46:19] 0.000722 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:46:21] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:46:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:21] [setup] GPU Tracking...
+[codecarbon INFO @ 15:46:21] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:46:21] [setup] CPU Tracking...
+[codecarbon INFO @ 15:46:21] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:46:21] >>> Tracker's metadata:
+[codecarbon INFO @ 15:46:21]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:46:21]   Python version: 3.6.8
+[codecarbon INFO @ 15:46:21]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:46:21]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:46:21]   CPU count: 1
+[codecarbon INFO @ 15:46:21]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:46:21]   GPU count: 1
+[codecarbon INFO @ 15:46:21]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:46:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:34] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:46:34] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:34] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.929 W
+[codecarbon INFO @ 15:46:34] Energy consumed for all CPUs : 0.000356 kWh. Total CPU Power : 128.9481485190494 W
+[codecarbon INFO @ 15:46:34] 0.000721 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:46:35] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:46:35] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:35] [setup] GPU Tracking...
+[codecarbon INFO @ 15:46:35] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:46:35] [setup] CPU Tracking...
+[codecarbon INFO @ 15:46:35] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:46:35] >>> Tracker's metadata:
+[codecarbon INFO @ 15:46:35]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:46:35]   Python version: 3.6.8
+[codecarbon INFO @ 15:46:35]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:46:35]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:46:35]   CPU count: 1
+[codecarbon INFO @ 15:46:35]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:46:35]   GPU count: 1
+[codecarbon INFO @ 15:46:35]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:46:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:49] Energy consumed for RAM : 0.000269 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:46:49] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:49] Energy consumed for all GPUs : 0.000112 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:46:49] Energy consumed for all CPUs : 0.000372 kWh. Total CPU Power : 128.70529332505046 W
+[codecarbon INFO @ 15:46:49] 0.000752 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:46:50] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:46:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:46:50] [setup] GPU Tracking...
+[codecarbon INFO @ 15:46:50] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:46:50] [setup] CPU Tracking...
+[codecarbon INFO @ 15:46:50] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:46:50] >>> Tracker's metadata:
+[codecarbon INFO @ 15:46:50]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:46:50]   Python version: 3.6.8
+[codecarbon INFO @ 15:46:50]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:46:50]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:46:50]   CPU count: 1
+[codecarbon INFO @ 15:46:50]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:46:50]   GPU count: 1
+[codecarbon INFO @ 15:46:50]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:47:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:03] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:47:03] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:03] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.45 W
+[codecarbon INFO @ 15:47:03] Energy consumed for all CPUs : 0.000357 kWh. Total CPU Power : 129.0452447911046 W
+[codecarbon INFO @ 15:47:03] 0.000721 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:47:04] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:47:04] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:04] [setup] GPU Tracking...
+[codecarbon INFO @ 15:47:04] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:47:04] [setup] CPU Tracking...
+[codecarbon INFO @ 15:47:04] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:47:04] >>> Tracker's metadata:
+[codecarbon INFO @ 15:47:04]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:47:04]   Python version: 3.6.8
+[codecarbon INFO @ 15:47:04]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:47:04]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:47:04]   CPU count: 1
+[codecarbon INFO @ 15:47:04]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:47:04]   GPU count: 1
+[codecarbon INFO @ 15:47:04]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:47:17] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:17] Energy consumed for RAM : 0.000257 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:47:18] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:18] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.354 W
+[codecarbon INFO @ 15:47:18] Energy consumed for all CPUs : 0.000355 kWh. Total CPU Power : 128.580149813482 W
+[codecarbon INFO @ 15:47:18] 0.000718 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:47:19] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:47:19] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:19] [setup] GPU Tracking...
+[codecarbon INFO @ 15:47:19] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:47:19] [setup] CPU Tracking...
+[codecarbon INFO @ 15:47:19] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:47:19] >>> Tracker's metadata:
+[codecarbon INFO @ 15:47:19]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:47:19]   Python version: 3.6.8
+[codecarbon INFO @ 15:47:19]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:47:19]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:47:19]   CPU count: 1
+[codecarbon INFO @ 15:47:19]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:47:19]   GPU count: 1
+[codecarbon INFO @ 15:47:19]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:47:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:32] Energy consumed for RAM : 0.000259 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:47:32] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:32] Energy consumed for all GPUs : 0.000104 kWh. Total GPU Power : 37.397 W
+[codecarbon INFO @ 15:47:32] Energy consumed for all CPUs : 0.000360 kWh. Total CPU Power : 129.0032094438002 W
+[codecarbon INFO @ 15:47:32] 0.000723 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:47:33] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:47:33] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:33] [setup] GPU Tracking...
+[codecarbon INFO @ 15:47:33] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:47:33] [setup] CPU Tracking...
+[codecarbon INFO @ 15:47:33] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:47:34] >>> Tracker's metadata:
+[codecarbon INFO @ 15:47:34]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:47:34]   Python version: 3.6.8
+[codecarbon INFO @ 15:47:34]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:47:34]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:47:34]   CPU count: 1
+[codecarbon INFO @ 15:47:34]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:47:34]   GPU count: 1
+[codecarbon INFO @ 15:47:34]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:47:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:47] Energy consumed for RAM : 0.000264 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:47:47] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:47] Energy consumed for all GPUs : 0.000110 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:47:47] Energy consumed for all CPUs : 0.000366 kWh. Total CPU Power : 128.7847038572037 W
+[codecarbon INFO @ 15:47:47] 0.000740 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:47:48] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:47:48] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:47:48] [setup] GPU Tracking...
+[codecarbon INFO @ 15:47:48] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:47:48] [setup] CPU Tracking...
+[codecarbon INFO @ 15:47:48] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:47:48] >>> Tracker's metadata:
+[codecarbon INFO @ 15:47:48]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:47:48]   Python version: 3.6.8
+[codecarbon INFO @ 15:47:48]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:47:48]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:47:48]   CPU count: 1
+[codecarbon INFO @ 15:47:48]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:47:48]   GPU count: 1
+[codecarbon INFO @ 15:47:48]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:48:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:02] Energy consumed for RAM : 0.000263 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:48:02] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:02] Energy consumed for all GPUs : 0.000108 kWh. Total GPU Power : 38.355000000000004 W
+[codecarbon INFO @ 15:48:02] Energy consumed for all CPUs : 0.000365 kWh. Total CPU Power : 128.93820504034892 W
+[codecarbon INFO @ 15:48:02] 0.000736 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:48:08] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:48:08] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:08] [setup] GPU Tracking...
+[codecarbon INFO @ 15:48:08] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:48:08] [setup] CPU Tracking...
+[codecarbon INFO @ 15:48:08] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:48:08] >>> Tracker's metadata:
+[codecarbon INFO @ 15:48:08]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:48:08]   Python version: 3.6.8
+[codecarbon INFO @ 15:48:08]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:48:08]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:48:08]   CPU count: 1
+[codecarbon INFO @ 15:48:08]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:48:08]   GPU count: 1
+[codecarbon INFO @ 15:48:08]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:48:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:21] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:48:21] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:21] Energy consumed for all GPUs : 0.000106 kWh. Total GPU Power : 38.067 W
+[codecarbon INFO @ 15:48:21] Energy consumed for all CPUs : 0.000359 kWh. Total CPU Power : 128.70573958783103 W
+[codecarbon INFO @ 15:48:21] 0.000725 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:48:22] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:48:22] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:22] [setup] GPU Tracking...
+[codecarbon INFO @ 15:48:22] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:48:22] [setup] CPU Tracking...
+[codecarbon INFO @ 15:48:22] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:48:22] >>> Tracker's metadata:
+[codecarbon INFO @ 15:48:22]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:48:22]   Python version: 3.6.8
+[codecarbon INFO @ 15:48:22]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:48:22]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:48:22]   CPU count: 1
+[codecarbon INFO @ 15:48:22]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:48:22]   GPU count: 1
+[codecarbon INFO @ 15:48:22]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:48:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:36] Energy consumed for RAM : 0.000260 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:48:36] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:36] Energy consumed for all GPUs : 0.000109 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:48:36] Energy consumed for all CPUs : 0.000300 kWh. Total CPU Power : 107.00811618406227 W
+[codecarbon INFO @ 15:48:36] 0.000669 kWh of electricity used since the beginning.
+[codecarbon INFO @ 15:48:37] [setup] RAM Tracking...
+[codecarbon WARNING @ 15:48:37] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:37] [setup] GPU Tracking...
+[codecarbon INFO @ 15:48:37] Tracking Nvidia GPU via pynvml
+[codecarbon INFO @ 15:48:37] [setup] CPU Tracking...
+[codecarbon INFO @ 15:48:37] Tracking Intel CPU via RAPL interface
+[codecarbon INFO @ 15:48:37] >>> Tracker's metadata:
+[codecarbon INFO @ 15:48:37]   Platform system: Linux-3.10.0-1127.el7.x86_64-x86_64-with-redhat-7.8-Maipo
+[codecarbon INFO @ 15:48:37]   Python version: 3.6.8
+[codecarbon INFO @ 15:48:37]   CodeCarbon version: 2.2.6
+[codecarbon INFO @ 15:48:37]   Available RAM : 251.621 GB
+[codecarbon INFO @ 15:48:37]   CPU count: 1
+[codecarbon INFO @ 15:48:37]   CPU model: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+[codecarbon INFO @ 15:48:37]   GPU count: 1
+[codecarbon INFO @ 15:48:37]   GPU model: 1 x Tesla V100-PCIE-32GB
+[codecarbon WARNING @ 15:48:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:50] Energy consumed for RAM : 0.000249 kWh. RAM Power : 94.35782861709595 W
+[codecarbon WARNING @ 15:48:50] Unexpected output after running `scontrol show job $SLURM_JOBID` to count SLURM-available RAM. Using the machine's total RAM.
+[codecarbon INFO @ 15:48:50] Energy consumed for all GPUs : 0.000104 kWh. Total GPU Power : 38.737 W
+[codecarbon INFO @ 15:48:50] Energy consumed for all CPUs : 0.000250 kWh. Total CPU Power : 93.38877262766248 W
+[codecarbon INFO @ 15:48:50] 0.000602 kWh of electricity used since the beginning.

@@ -29,6 +29,7 @@ fi
 
 GPU_TYPE=$2
 #TODO: add some validation on type of GPUs we support
+VENV_PATH=../CS-239-Final-Project/env
 
 #Activate the virtual environment
 source "$VENV_PATH/bin/activate"
@@ -61,3 +62,33 @@ done
 
 echo "Outputs stored in $CODECARBON_CSV_OUTPUT_FILE_PATH"
 
+c
+K=100
+IMAGE_COUNT=50
+green_echo "Starting $K iterations of generating $IMAGE_COUNT..."
+
+GIT_ROOT=$(git rev-parse --show-toplevel)
+TIMESTAMP=$(date +"%m%d_%H%M%S")
+CODECARBON_SCRIPT="$GIT_ROOT/codecarbon/main.py"
+CODECARBON_CSV_OUTPUT_FILE_PATH="$GIT_ROOT/CSV/$timestamp"
+
+echo "saving to $CODECARBON_CSV_OUTPUT_FILE_PATH"
+
+for ((i=1; i<=K; i++))
+do	
+    green_echo "Running experiment $i..."
+    python3 "$CODECARBON_SCRIPT" "$IMAGE_COUNT" "$CODECARBON_CSV_OUTPUT_FILE_PATH" "$i"
+done
+
+# Copying the file over to avoid overwriting ORIG_CSV="$CSV_DIR/emissions.csv"
+ORIG_CSV="$CSV_DIR/emissions.csv"
+FINAL_CSV="$CSV_DIR/${TIMESTAMP}_${K}_${IMAGE_COUNT}.csv"
+
+if [[ -f "$ORIG_CSV" ]]; then
+  mv "$ORIG_CSV" "$FINAL_CSV"
+  echo "✔ Moved $ORIG_CSV → $FINAL_CSV"
+else
+  echo "⚠️  Didn’t find $ORIG_CSV—nothing to rename!"
+fi
+
+echo "🎉 All done—see your CSV at: $FINAL_CSV"

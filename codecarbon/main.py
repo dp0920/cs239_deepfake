@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, argparse
 import subprocess
 from codecarbon import EmissionsTracker
 
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     #print("Starting Deepfake Energy Measurement...")
 
     if len(sys.argv) not in [2, 3]:
-        print("Usage: python your_script.py <idx> [<codecarbon_output>]")
+        print("Usage: python your_script.py <idx> [<directory_for_emissions_csv>]")
         sys.exit(1)
 
     idx = int(sys.argv[1])

@@ -8,7 +8,7 @@ def run_stylegan2_ada_pytorch_script():
     # Adjust this path and command to your StyleGAN2 setup
     print("Running StyleGAN2-ADA-PyTorch generation...")
     subprocess.run([
-        "python", "generate.py", "--outdir=out", "--trunc=1", "--seeds=1-100",
+        "python3", "generate.py", "--outdir=out", "--trunc=1", "--seeds=1-100",
         "--network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl"
     ], cwd="stylegan2-ada-pytorch")
     

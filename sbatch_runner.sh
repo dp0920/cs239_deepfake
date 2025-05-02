@@ -15,7 +15,7 @@ MODELS=("b")
 # 	done
 # done
 
-GPU_PREEMPT=("v100")
+GPU_PREEMPT=("p100")
 
 for M in "${MODELS[@]}"; do
 	for GPU in "${GPU_PREEMPT[@]}"; do

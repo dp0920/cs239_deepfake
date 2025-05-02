@@ -22,12 +22,12 @@ ImageNET has different kinds of dogs, cats, and foxes, cheetahs, wolves, leopard
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 1.  Load generator (256-px, pre-trained on ImageNet)
-G = BigGAN.from_pretrained('biggan-deep-256').to(device).eval()
+G = BigGAN.from_pretrained('biggan-deep-512').to(device).eval()
 
 def generate_image(seed, trunc=0.4, outdir='biggan_samples'):
     rng = np.random.RandomState(seed)
     z = truncated_noise_sample(1, 128, truncation=trunc, seed=rng.randint(1e9))
-    z = torch.tensor(z, device=device, dtype=torch.float32)
+    z = torch.tensor(z, device=device, dtype=torch.float32) 
     
     # pick a class (e.g. fixed or from a list)
     y = torch.zeros((1,1000), device=device)

@@ -11,6 +11,23 @@ This project utilizes NVIDIA's StyleGAN2-ADA-PyTorch to generate high-quality im
 - [Running the Code](#running-the-code)
 - [Generating Images with Pre-trained Model](#generating-images-with-pre-trained-model)
 
+## Motivation
+Modern ML models used for deepfake generation require a ton of compute power and energy. We present a study that quantifies the
+energy use of two deepfake image generation
+models - StyleGAN2 ADA and BigGAN - to
+estimate the rate of carbon emissions during
+model inference. We demonstrate that there is
+a considerable impact on the environment when
+using these large models and convey the ethical implications of continued usage. Furthermore, we found non-trivial variability between
+GPUs and architectures when it comes to carbon emissions: for example, when generating
+50 images over 100 batches with the BigGAN
+model, there’s a difference of 0.347901 grams
+of CO2 between the 256 and 512 versions of
+the model. We discuss the need to research
+more energy efficient innovations in the space
+of AI development to protect the environment
+for future generations.
+
 ## Environment Setup
 
 1. **Create a Virtual Environment**:
@@ -30,14 +47,6 @@ This project utilizes NVIDIA's StyleGAN2-ADA-PyTorch to generate high-quality im
    ```bash
    pip install codecarbon torch Pillow ninja
    ```
-
-## Activating Virtual Environment
-
-Ensure that the virtual environment is activated before proceeding:
-
-```bash
-source .venv/bin/activate
-```
 
 ## Loading Modules
 
@@ -63,6 +72,7 @@ rm -rf $HOME/.cache/torch_extensions
 To run the main script:
 
 ```bash
+cd codecarbon
 python main.py
 ```
 
@@ -86,4 +96,13 @@ python generate.py --outdir=out --trunc=1 --seeds=2 --network=https://nvlabs-fi-
 
 For more details and advanced configurations, refer to the [official StyleGAN2-ADA-PyTorch repository](https://github.com/NVlabs/stylegan2-ada-pytorch).
 
+## Batch Runs
 
+There is a shell script, `sbatch_runner.sh` that can be run on SLURM environments for batching calls and resources 
+requests. 
+
+```shell
+GPU_COUNT=4
+
+./sbatch_runner.sh
+```

@@ -1,4 +1,4 @@
-import os
+import os, sys, argparse
 import subprocess
 from codecarbon import EmissionsTracker
 
@@ -27,3 +27,4 @@ if __name__ == "__main__":
     measure_emissions(run_stylegan2_ada_pytorch_script, "StyleGAN2-ADA-PyTorch-Generation")
 
     print("Measurement Complete.")
+

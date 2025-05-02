@@ -55,7 +55,7 @@ echo "saving to $CODECARBON_CSV_OUTPUT_FILE_PATH"
 for ((i=1; i<=K; i++))
 do	
     green_echo "Running experiment $i..."
-    python "$CODECARBON_SCRIPT" "$IMAGE_COUNT" $CODECARBON_CSV_OUTPUT_FILE_PATH
+    python "$CODECARBON_SCRIPT" "$IMAGE_COUNT" "$CODECARBON_CSV_OUTPUT_FILE_PATH" "$i"
 done
 
 # Copying the file over to avoid overwriting

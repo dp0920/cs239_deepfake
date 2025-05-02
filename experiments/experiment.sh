@@ -11,7 +11,11 @@ cleanup() {
 }
 
 usage() {
+<<<<<<< HEAD
   echo "Usage: $0 /path/to/venv gpu_type"
+=======
+  echo "Usage: $0 /path/to/venv"
+>>>>>>> update experiment.sh for running as a batch
 }
 
 green_echo() {
@@ -27,6 +31,7 @@ if [ -z "$VENV_PATH" ]; then
   exit 1
 fi
 
+<<<<<<< HEAD
 GPU_TYPE=$2
 #TODO: add some validation on type of GPUs we support
 VENV_PATH=../CS-239-Final-Project/env
@@ -34,11 +39,25 @@ VENV_PATH=../CS-239-Final-Project/env
 #Activate the virtual environment
 source "$VENV_PATH/bin/activate"
 
+=======
+#Activate the virtual environment
+source "$VENV_PATH/bin/activate"
+
+
+>>>>>>> update experiment.sh for running as a batch
 module purge
 module load cuda/11.7
 module load gcc/11.2.0
 export CXX=$(which g++)
 export CC=$(which gcc)
+<<<<<<< HEAD
+=======
+
+c
+K=100
+IMAGE_COUNT=50
+green_echo "Starting $K iterations of generating $IMAGE_COUNT..."
+>>>>>>> update experiment.sh for running as a batch
 
 GIT_ROOT=$(git rev-parse --show-toplevel)
 CODECARBON_SCRIPT="$GIT_ROOT/codecarbon/main.py"
@@ -92,3 +111,4 @@ else
 fi
 
 echo "🎉 All done—see your CSV at: $FINAL_CSV"
+

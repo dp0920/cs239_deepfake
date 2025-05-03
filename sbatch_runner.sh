@@ -6,6 +6,10 @@ declare -A MODELS
 declare -A PARTITION_BY_GPU
 declare -A VENV_BY_GPU
 
+usage() {
+  echo "./sbatch_runner <number_of_gpus_to_use>"
+}
+
 GPU_COUNT=$1
 if [ -z "$GPU_COUNT" ]; then
 	usage

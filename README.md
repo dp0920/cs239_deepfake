@@ -30,51 +30,60 @@ for future generations.
 
 ## Environment Setup
 
-1. **Create a Virtual Environment**:
+1. **Create a Virtual Environments for each model**:
 
    ```bash
-   python3 -m venv .venv
-   ```
-
-2. **Activate the Virtual Environment**:
-
-   ```bash
-   source .venv/bin/activate
-   ```
-
-3. **Install Required Packages**:
-
-   ```bash
-   pip install codecarbon torch Pillow ninja
+   
+   # To run stylegan on v100 & p100
+   python3 -m venv .venv368
+   source .venv368/bin/activate
+   pip install -r requirements-368.txt
+   # and finally deactivate to install the other requirements
+   deactivate
+   
+   # To run stylegan on a100
+   python3 -m venv .venv310
+   source .venv310/bin/activate
+   pip install -r requirements-310.txt
+   # and finally deactivate to install the other requirements
+   deactivate
+   
+   # To run biggan
+   python3 -m venv .bigganVenv
+   source .bigganVenv/bin/activate
+   pip install -r requirements-biggan.txt
+   # and finally deactivate
+   deactivate
    ```
 
 ## Loading Modules
 
-Load the necessary modules for CUDA and GCC:
+To run these locally, you'll need CUDA and GCC, the batch runner script will take care of setting this up.
 
-```bash
-module load cuda/11.7
-module load gcc/11.2.0
-export CXX=$(which g++)
-export CC=$(which gcc)
-```
+   ```bash
+         module load cuda/11.7
+         module load gcc/11.2.0
+         export CXX=$(which g++)
+         export CC=$(which gcc)
+   ```
 
-## Optional: Clear PyTorch Cache
+## Optional: Clear some cache
 
 To remove cached PyTorch extensions (optional):
 
-```bash
-rm -rf $HOME/.cache/torch_extensions
-```
+   ```bash
+         rm -rf $HOME/.cache/torch_extensions
+         pip cache purge
+   ```
 
 ## Running the Code
 
 To run the main script:
 
-```bash
-cd codecarbon
-python main.py
-```
+   ```bash
+         cd codecarbon
+         python main.py
+   ```
 
 This script will execute the StyleGAN2-ADA-PyTorch generation process and measure the associated carbon emissions using CodeCarbon.
 
@@ -82,10 +91,10 @@ This script will execute the StyleGAN2-ADA-PyTorch generation process and measur
 
 Alternatively, you can generate images directly using the `generate.py` script:
 
-```bash
-cd stylegan2-ada-pytorch
-python generate.py --outdir=out --trunc=1 --seeds=2 --network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl
-```
+   ```bash
+      cd stylegan2-ada-pytorch
+      python generate.py --outdir=out --trunc=1 --seeds=2 --network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl
+   ```
 
 - `--outdir=out`: Directory to save the generated images.
 - `--trunc=1`: Truncation psi value; controls the trade-off between variety and fidelity.
@@ -103,6 +112,6 @@ requests.
 
 ```shell
    GPU_COUNT=4
-   # Bellow will create 3 job, 1 for each of the GPUs outlined in the paper, each configured with 4 GPUs.
+   # Bellow will create 6 jobs, 1 for each of the GPUs outlined in the paper, each configured with 4 GPUs.
    ./sbatch_runner.sh $GPU_COUNT
 ```

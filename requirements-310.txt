@@ -1,0 +1,7 @@
+codecarbon
+ninja
+numpy==1.26.4
+pillow
+torch==1.13.1+cu117
+torchvision
+torchaudio

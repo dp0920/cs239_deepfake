@@ -2,7 +2,8 @@
 
 # This script starts sbatch runs for each supported GPU
 
-declare -A MODELS
+#TODO: assign virtual environment for Biggan model
+#declare -A MODELS
 declare -A PARTITION_BY_GPU
 declare -A VENV_BY_GPU
 

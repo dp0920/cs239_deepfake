@@ -29,10 +29,10 @@ def run_biggan(n, seed_base, outdir=None):
     """
 
     print(f"Running BigGAN generation: n={n}, seed_base={seed_base}")
-    codecarbon_dir = Path(__file__).parent.resolve()
 
     # 2) build the absolute path to biggan-main.py
-    biggan_script = codecarbon_dir / "biggan-main.py"
+    git_root = get_git_root()
+    biggan_script = git_root + "/codecarbon/biggan-main.py"
 
     cmd = [
         sys.executable,

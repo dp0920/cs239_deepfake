@@ -102,7 +102,7 @@ There is a shell script, `sbatch_runner.sh` that can be run on SLURM environment
 requests. 
 
 ```shell
-GPU_COUNT=4
-
-./sbatch_runner.sh
+   GPU_COUNT=4
+   # Bellow will create 3 job, 1 for each of the GPUs outlined in the paper, each configured with 4 GPUs.
+   ./sbatch_runner.sh $GPU_COUNT
 ```

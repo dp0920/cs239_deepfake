@@ -2,9 +2,6 @@
 
 # This script starts sbatch runs for each supported GPU
 
-GPU_PARTITION=("a100")
-TIMESTAMP=$(date +"%m%d_%H%M%S")
-
 GPU_COUNT=$1
 if [ -z "$GPU_COUNT" ]; then
   usage
@@ -35,5 +32,14 @@ for M in "${MODELS[@]}"; do
 	for GPU in "${GPUs[@]}"; do
 		VENV=${VENV_BY_GPU["$GPU"]}
 		PARTITION=${PARTITION_BY_GPU["$GPU"]}
-		sbatch --job-name="$M"_"$GPU" --output="$M"_"$GPU"_%j_"$TIMESTAMP".log --error="$M"_"$GPU"_%j_$TIMESTAMP.err --time=0-04:00 --mem=4G --partition=$PARTITION --gres=gpu:"$GPU":$GPU_COUNT experiments/experiment.sh $VENV $GPU
+		sbatch \
+		  --mem=4G \
+		  --time=0-04:00 \
+		  --job-name="$M"_"$GPU" \
+		  --output="$M"_"$GPU"_%j_"$TIMESTAMP".log \
+		  --error="$M"_"$GPU"_%j_$TIMESTAMP.err \
+		  --partition=$PARTITION \
+		  --gres=gpu:"$GPU":$GPU_COUNT experiments/experiment.sh $VENV $GPU
+	done
+done
 

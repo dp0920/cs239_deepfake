@@ -2,15 +2,15 @@
 
 # This script starts sbatch runs for each supported GPU
 
+declare -A MODELS
+declare -A PARTITION_BY_GPU
+declare -A VENV_BY_GPU
+
 GPU_COUNT=$1
 if [ -z "$GPU_COUNT" ]; then
 	usage
 	exit 1
 fi
-
-VENV_BY_GPU["a100"]=$(pwd)/venv310
-VENV_BY_GPU["p100"]=$(pwd)/venv310
-VENV_BY_GPU["v100"]=$(pwd)/venv368
 
 # GPU partition was not starting for these, switching to preempt
 #PARTITION_BY_GPU["a100"]="gpu"
@@ -24,7 +24,15 @@ TIMESTAMP=$(date +"%m%d_%H%M%S")
 
 #s == stylegan
 #b == biggan
-MODELS=("s" "b")
+#MODELS["b"]=
+#MODELS["s"]=
+MODELS=("b" "s")
+
+# Stylegan options for venv
+VENV_BY_GPU["a100"]=$(pwd)/venv310
+VENV_BY_GPU["p100"]=$(pwd)/venv310
+VENV_BY_GPU["v100"]=$(pwd)/venv368
+
 
 # GPU partition
 for M in "${MODELS[@]}"; do

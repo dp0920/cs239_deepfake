@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+    \.venv*
+  | venv*
+  | deepfake-env
+  | lib
+  | \.env
+  | build
+  | dist
+  | \.git
+  | __pycache__
+)/
+'''
